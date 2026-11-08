@@ -86,7 +86,9 @@ research/
 ├─ MATLAB对照手册.md        MATLAB ↔ Octave 函数对照
 ├─ 研究环境说明.md          环境详细说明
 ├─ 架构分析-MATLAB官方架构.md ★ 照官方文档做的架构对照与缺陷修复
-└─ 架构分析-MATLAB替代内核.md ★ craft-anything 二进制取证报告
+├─ 架构分析-MATLAB替代内核.md ★ craft-anything 二进制取证报告
+├─ LICENSE                  MIT
+└─ THIRD-PARTY-NOTICES.md   第三方组件许可证说明
 ```
 
 ---
@@ -151,6 +153,8 @@ MAT 文件互通        9 通过 / 0 失败（Octave 存→SciPy 读、SciPy 存
 
 ## 许可
 
-MIT，见 [LICENSE](LICENSE)。
+本项目以 **MIT** 发布，见 [LICENSE](LICENSE)。
 
-Octave 为 GPLv3+，Python 各库为各自许可证，本项目只做环境编排与兼容层补丁。
+第三方组件（GNU Octave 为 GPLv3+、各 Python 库、Qt 等）保留各自许可证，
+详见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
+本项目只做环境编排与原创的兼容层补丁，与 MathWorks 无关联。
