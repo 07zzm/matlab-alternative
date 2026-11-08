@@ -42,6 +42,12 @@ exist('你的函数名')   % 返回 0 才需要补；返回 2/5 说明已存在�
 * 中文提示只写在 `chcp 65001` **之前**（那是给 Octave 的 UTF-8 输出用的）；
 * `chcp 65001` 之后只用 ASCII。
 
+**还有一条踩过的坑**：`chcp 65001` **之后传给 Octave 的文件名也必须是 ASCII**。
+`cmd.exe` 会按新代码页重新读取批处理的后续内容，中文文件名会被解析坏，报
+`error: no such file, '...\����-MAT��ͨ.m'`。
+所以带中文名的脚本一律配一个 ASCII 入口（如 `测试-MAT互通.m` ← `test_mat_interop.m`），
+批处理只调用 ASCII 那个，中文名由 Octave 内部用 `run()` 解析。
+
 改完 `.bat` 请运行编码工具：
 
 ```powershell

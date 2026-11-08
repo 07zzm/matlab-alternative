@@ -29,4 +29,5 @@ desktop.ini
 
 # ---- 临时文件 ----
 _t.png
+_interop_tmp/
 *.tmp

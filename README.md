@@ -13,6 +13,7 @@
 | | 说明 |
 |---|---|
 | **MATLAB 语法兼容** | Octave 内核自带 MATLAB 兼容子系统（MAT-file v5、MEX、classdef）；本项目再补 12 个缺失函数 |
+| **`.mat` 真互通** | 默认存盘已对齐 MATLAB 官方 v7 格式，并与 SciPy 交叉验证 9/9（Octave 存→SciPy 读、SciPy 存→Octave 读） |
 | **中文无障碍** | 界面、绘图标题/坐标轴、帮助全部中文；绘图默认 `Microsoft YaHei` |
 | **离线可装** | `wheels/` 内置全部 Python 依赖，无网环境也能 `pip install --no-index` |
 | **双击即用** | 桌面快捷方式 + 图形启动面板 + 批处理启动器 |
@@ -33,7 +34,10 @@
 # 3. 跑综合测试（会在本目录生成 测试结果.png）
 .\运行测试.bat
 
-# 4. 启动 MATLAB 兼容模式
+# 4. 跑 .mat 互通测试（Octave <-> Python/SciPy 交叉验证）
+.\测试-MAT互通.bat
+
+# 5. 启动 MATLAB 兼容模式
 .\启动-Octave.bat      →  选 [3] GUI + --traditional
 ```
 
@@ -51,23 +55,26 @@ research/
 │   ├─ readmatrix.m  writematrix.m  sgtitle.m  tiledlayout.m  nexttile.m
 │   └─ README.md
 ├─ tools/
-│   └─ bat_to_gbk.py        批处理 GBK 编码修正工具
+│   ├─ bat_to_gbk.py        批处理 GBK 编码修正工具
+│   └─ mat_interop.py      .mat 互通交叉验证（Python/SciPy 侧）
 ├─ analysis/
 │   └─ octave-arch.cany     craft-anything 取证项目（证据/日志）
 ├─ 测试代码.m / test_demo.m  综合测试（6 节，13 项兼容断言）
+├─ 测试-MAT互通.m            .mat 与 MATLAB/SciPy 互通测试（9 项）
 ├─ verify_env.m            环境自检（扩展包 + 符号计算 + 绘图）
 ├─ demo_octave.m           MATLAB 语法演示
 ├─ 启动-Octave.bat          Octave 启动器（含 --traditional 兼容模式）
 ├─ 启动-科学计算.bat         JupyterLab 启动器（暗色主题、自动端口）
 ├─ 启动面板.py / .bat        tkinter 图形启动面板
-├─ 检查环境.bat / 运行测试.bat
+├─ 检查环境.bat / 运行测试.bat / 测试-MAT互通.bat
 ├─ build_icons.py          图标生成（Pillow 渐变圆角）
 ├─ download_wheels.py      离线 wheel 下载器
 ├─ write_jupyter_cfg.py    Jupyter 暗色主题与默认配置
 ├─ 科研快速上手.ipynb       入门 Notebook
 ├─ MATLAB对照手册.md        MATLAB ↔ Octave 函数对照
 ├─ 研究环境说明.md          环境详细说明
-└─ 架构分析-MATLAB替代内核.md ★ craft-anything 取证报告
+├─ 架构分析-MATLAB官方架构.md ★ 照官方文档做的架构对照与缺陷修复
+└─ 架构分析-MATLAB替代内核.md ★ craft-anything 二进制取证报告
 ```
 
 ---
@@ -104,6 +111,7 @@ Octave 11.3 里**完全不存在**、由本项目补齐的函数：
 【4】统计           均值 ≈12，标准差 ≈0.5
 【5】绘图           Chinese 标题正常，输出 测试结果.png
 【6】MATLAB 兼容层   13 通过 / 0 失败
+MAT 文件互通        9 通过 / 0 失败（Octave 存→SciPy 读、SciPy 存→Octave 读）
 环境自检            SUMMARY pass=8 fail=0
 ```
 
@@ -121,6 +129,7 @@ Octave 11.3 里**完全不存在**、由本项目补齐的函数：
 
 ## 文档
 
+* [架构分析-MATLAB官方架构.md](架构分析-MATLAB官方架构.md) —— 官方文档架构对照 + 默认存盘格式缺陷修复
 * [架构分析-MATLAB替代内核.md](架构分析-MATLAB替代内核.md) —— craft-anything 二进制取证报告
 * [MATLAB对照手册.md](MATLAB对照手册.md) —— 函数对照与迁移建议
 * [研究环境说明.md](研究环境说明.md) —— 安装与使用详解
