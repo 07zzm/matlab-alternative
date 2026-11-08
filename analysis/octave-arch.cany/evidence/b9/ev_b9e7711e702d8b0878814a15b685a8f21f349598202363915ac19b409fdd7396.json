@@ -1,0 +1,1498 @@
+{
+  "id": "ev_b9e7711e702d8b0878814a15b685a8f21f349598202363915ac19b409fdd7396",
+  "subject": {
+    "kind": "pe",
+    "sha256": "d48ead95797e7ed1ff536f7c9e578b9f901e9d061e2a63a4a9a33673ab002701",
+    "name": "liboctinterp-15.dll"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "classdef"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x3b016af48",
+        "references": [
+          {
+            "from": "0x3af71bd90",
+            "function": "_ZN6octave10cdef_class14cdef_class_rep15run_constructorERNS_11cdef_objectERK17octave_value_list"
+          }
+        ],
+        "section": ".rdata",
+        "text": "%s: invalid number of output arguments for classdef constructor"
+      },
+      {
+        "address": "0x3b016dbf8",
+        "references": [
+          {
+            "from": "0x3af7396ff",
+            "function": "_ZNK6octave18cdef_object_scalar7reshapeERK10dim_vector"
+          }
+        ],
+        "section": ".rdata",
+        "text": "reshape: cannot reshape scalar classdef object to %s array"
+      },
+      {
+        "address": "0x3b016dc80",
+        "references": [
+          {
+            "from": "0x3af73ae50",
+            "function": "_ZNK6octave11cdef_object9map_valueEbb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "struct: converting a classdef object into a struct overrides the access restrictions defined for properties. All properties are returned, including private and protected ones."
+      },
+      {
+        "address": "0x3b016dd30",
+        "references": [
+          {
+            "from": "0x3af73ae57",
+            "function": "_ZNK6octave11cdef_object9map_valueEbb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:classdef-to-struct"
+      },
+      {
+        "address": "0x3b016f6d0",
+        "references": [
+          {
+            "from": "0x3af747db8",
+            "function": "sub_3af747800"
+          }
+        ],
+        "section": ".rdata",
+        "text": "set-method of property '%s' returned a non-classdef object"
+      },
+      {
+        "address": "0x3b0172288",
+        "references": [
+          {
+            "from": "0x3af74fd09",
+            "function": "_ZN17octave_base_value21classdef_object_valueEb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "octave_base_value::classdef_object_value()"
+      },
+      {
+        "address": "0x3b01780f8",
+        "references": [
+          {
+            "from": "0x3af783dd7",
+            "function": "_ZN15octave_classdef7loadobjERSt6vectorISt5tupleIJ10octave_mapjbEESaIS3_EER10dim_vector"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: loadobj method does not return classdef object of correct class '%s'. This is currently not supported."
+      },
+      {
+        "address": "0x3b01782d8",
+        "references": [
+          {
+            "from": "0x3af7867f9",
+            "function": "_ZN15octave_classdef10load_asciiERSi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: failed to extract keyword 'ndims' for classdef object"
+      },
+      {
+        "address": "0x3b0178318",
+        "references": [
+          {
+            "from": "0x3af786823",
+            "function": "_ZN15octave_classdef10load_asciiERSi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: failed to extract keyword 'id' for classdef object"
+      },
+      {
+        "address": "0x3b0178358",
+        "references": [
+          {
+            "from": "0x3af78682f",
+            "function": "_ZN15octave_classdef10load_asciiERSi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: failed to extract keyword 'length' for classdef object"
+      },
+      {
+        "address": "0x3b0178398",
+        "references": [
+          {
+            "from": "0x3af7867cd",
+            "function": "_ZN15octave_classdef10load_asciiERSi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: failed to extract number of properties for classdef object"
+      },
+      {
+        "address": "0x3b01783e8",
+        "references": [
+          {
+            "from": "0x3af7867e1",
+            "function": "_ZN15octave_classdef10load_asciiERSi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: failed to extract keyword 'metadata' for classdef object"
+      },
+      {
+        "address": "0x3b0178428",
+        "references": [
+          {
+            "from": "0x3af7867ed",
+            "function": "_ZN15octave_classdef10load_asciiERSi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: failed to load classdef object"
+      },
+      {
+        "address": "0x3b01784c0",
+        "references": [
+          {
+            "from": "0x3b01784b0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "*St22_Maybe_get_result_typeIZN15octave_classdef6xnumelERK17octave_value_listEUlPKNSt7__cxx114listIN6octave13octave_lvalueESaIS7_EEEE_vE"
+      },
+      {
+        "address": "0x3b0178560",
+        "references": [
+          {
+            "from": "0x3b0178550",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "*St22_Weak_result_type_implIZN15octave_classdef6xnumelERK17octave_value_listEUlPKNSt7__cxx114listIN6octave13octave_lvalueESaIS7_EEEE_E"
+      },
+      {
+        "address": "0x3b0178600",
+        "references": [
+          {
+            "from": "0x3b01785f0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "*St24_Weak_result_type_memfunIZN15octave_classdef6xnumelERK17octave_value_listEUlPKNSt7__cxx114listIN6octave13octave_lvalueESaIS7_EEEE_Lb0EE"
+      },
+      {
+        "address": "0x3b01786c0",
+        "references": [
+          {
+            "from": "0x3b0178698",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "*St17_Weak_result_typeIZN15octave_classdef6xnumelERK17octave_value_listEUlPKNSt7__cxx114listIN6octave13octave_lvalueESaIS7_EEEE_E"
+      },
+      {
+        "address": "0x3b0178760",
+        "references": [
+          {
+            "from": "0x3b0178750",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "*St5_BindIFZN15octave_classdef6xnumelERK17octave_value_listEUlPKNSt7__cxx114listIN6octave13octave_lvalueESaIS7_EEEE_SB_EE"
+      },
+      {
+        "address": "0x3b01856ed",
+        "references": [
+          {
+            "from": "0x3af80abc1",
+            "function": "_ZNK20octave_user_function13ctor_type_strB5cxx11Ev"
+          },
+          {
+            "from": "0x3af80aca1",
+            "function": "_ZNK20octave_user_function15method_type_strB5cxx11Ev"
+          }
+        ],
+        "section": ".rdata",
+        "text": "classdef"
+      },
+      {
+        "address": "0x3b018dfd6",
+        "references": [
+          {
+            "from": "0x3b018e210",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "classdef"
+      },
+      {
+        "address": "0x3b018e035",
+        "references": [
+          {
+            "from": "0x3b018e2f0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "endclassdef"
+      },
+      {
+        "address": "0x3b01912e5",
+        "references": [
+          {
+            "from": "0x3af859940",
+            "function": "sub_3af859890"
+          }
+        ],
+        "section": ".rdata",
+        "text": "endclassdef"
+      },
+      {
+        "address": "0x3b0191588",
+        "references": [
+          {
+            "from": "0x3af85afc3",
+            "function": "_ZN6octave11base_parser22make_classdef_propertyEPNS_15tree_identifierEPNS_19tree_arg_validationE"
+          }
+        ],
+        "section": ".rdata",
+        "text": "size, class, and validation function specifications are not yet supported for classdef properties; INCORRECT RESULTS ARE POSSIBLE!"
+      },
+      {
+        "address": "0x3b01921f0",
+        "references": [
+          {
+            "from": "0x3af863a3f",
+            "function": "_ZN6octave11base_parser13make_classdefEPNS_5tokenEPNS_28tree_classdef_attribute_listEPNS_15tree_identifierEPNS_29tree_classdef_superclass_listEPNS_18tree_classdef_bodyES2_"
+          }
+        ],
+        "section": ".rdata",
+        "text": "invalid classdef definition, the class name must match the filename"
+      },
+      {
+        "address": "0x3b01928e0",
+        "references": [
+          {
+            "from": "0x3af86daff",
+            "function": "sub_3af86d0d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "classdef body open at end of input"
+      },
+      {
+        "address": "0x3b0192908",
+        "references": [
+          {
+            "from": "0x3af86dfad",
+            "function": "sub_3af86d0d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "classdef must appear inside a file containing only a class definition"
+      },
+      {
+        "address": "0x3b0192f38",
+        "references": [
+          {
+            "from": "0x3af871448",
+            "function": "_ZN6octave14parse_fcn_fileERNS_11interpreterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_S9_S9_bbbb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "unexpected: defining classdef object but primary_fcn is already defined - please report this bug"
+      },
+      {
+        "address": "0x3b019d8b0",
+        "references": [
+          {
+            "from": "0x3af89d0c4",
+            "function": "_ZN6octave19tree_superclass_ref10evaluate_nERNS_14tree_evaluatorEi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/scratch/build/mxe-octave-w64/tmp-release-octave/octave-11.3.0/libinterp/parse-tree/pt-classdef.cc"
+      },
+      {
+        "address": "0x3b01a1230",
+        "references": [
+          {
+            "from": "0x3af8ba6e6",
+            "function": "_ZN6octave14tree_evaluator21execute_user_functionER20octave_user_functioniRK17octave_value_list"
+          }
+        ],
+        "section": ".rdata",
+        "text": "invalid call to classdef constructor in tree_evaluator::execute_user_function - please report this bug"
+      },
+      {
+        "address": "0x3b01a1318",
+        "references": [
+          {
+            "from": "0x3af8ba6da",
+            "function": "_ZN6octave14tree_evaluator21execute_user_functionER20octave_user_functioniRK17octave_value_list"
+          }
+        ],
+        "section": ".rdata",
+        "text": "%s: invalid classdef constructor, no output argument defined"
+      },
+      {
+        "address": "0x3b01d50d1",
+        "references": [
+          {
+            "from": "0x3afc02be8",
+            "function": "sub_3afc02890"
+          }
+        ],
+        "section": ".rdata",
+        "text": "classdef meta object"
+      },
+      {
+        "address": "0x3b01d50e6",
+        "references": [
+          {
+            "from": "0x3afc0314c",
+            "function": "sub_3afc02ed0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "classdef class"
+      },
+      {
+        "address": "0x3b01de448",
+        "references": [
+          {
+            "from": "0x3afc71274",
+            "function": "_Z13add_hdf5_dataxRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_bb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Saving classdef objects is not supported. Attempting to save '%s' as struct."
+      },
+      {
+        "address": "0x3b01de498",
+        "references": [
+          {
+            "from": "0x3afc7127b",
+            "function": "_Z13add_hdf5_dataxRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_bb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:save:classdef:unsupported"
+      },
+      {
+        "address": "0x3b01df820",
+        "references": [
+          {
+            "from": "0x3afc7e4a0",
+            "function": "_ZN6octave16load_mcos_objectERK12octave_valueb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: classdef not found. Element loaded as %s"
+      },
+      {
+        "address": "0x3b01df850",
+        "references": [
+          {
+            "from": "0x3afc7e4a7",
+            "function": "_ZN6octave16load_mcos_objectERK12octave_valueb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:load:classdef-not-found"
+      },
+      {
+        "address": "0x3b01df9a0",
+        "references": [
+          {
+            "from": "0x3afc80589",
+            "function": "sub_3afc7fad0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:load:classdef-not-supported"
+      },
+      {
+        "address": "0x3b01e0fc0",
+        "references": [
+          {
+            "from": "0x3afc8fb1c",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          },
+          {
+            "from": "0x3afc920bf",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:load:classdef-not-supported"
+      },
+      {
+        "address": "0x3b01e10a0",
+        "references": [
+          {
+            "from": "0x3afc918e0",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: classdef element has been converted to a struct"
+      },
+      {
+        "address": "0x3b01e10d8",
+        "references": [
+          {
+            "from": "0x3afc918e7",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          },
+          {
+            "from": "0x3afc92397",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:load:classdef-to-struct"
+      },
+      {
+        "address": "0x3b01e1128",
+        "references": [
+          {
+            "from": "0x3afc91d61",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:load:classdef-object-inheritance"
+      },
+      {
+        "address": "0x3b01e13b8",
+        "references": [
+          {
+            "from": "0x3afc95564",
+            "function": "_Z24save_mat5_binary_elementRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbbbb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Saving classdef objects is not supported. Attempting to save object as struct."
+      },
+      {
+        "address": "0x3b01e1408",
+        "references": [
+          {
+            "from": "0x3afc9556b",
+            "function": "_Z24save_mat5_binary_elementRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbbbb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:save:classdef:unsupported"
+      },
+      {
+        "address": "0x3b01e2358",
+        "references": [
+          {
+            "from": "0x3afc98e36",
+            "function": "_Z16save_binary_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_bb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Saving classdef objects is not supported. Attempting to save '%s' as struct."
+      },
+      {
+        "address": "0x3b01e23a8",
+        "references": [
+          {
+            "from": "0x3afc98e3d",
+            "function": "_Z16save_binary_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_bb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:save:classdef:unsupported"
+      },
+      {
+        "address": "0x3b01e2e48",
+        "references": [
+          {
+            "from": "0x3afc9bb52",
+            "function": "_Z14save_text_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Saving classdef objects is not supported. Attempting to save object as struct."
+      },
+      {
+        "address": "0x3b01e2e98",
+        "references": [
+          {
+            "from": "0x3afc9bb59",
+            "function": "_Z14save_text_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:save:classdef:unsupported"
+      },
+      {
+        "address": "0x3b01e34a8",
+        "references": [
+          {
+            "from": "0x3afc9e20a",
+            "function": "_Z14read_text_dataRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERbR12octave_valuexb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: failed to extract keyword specifying classdef class"
+      },
+      {
+        "address": "0x3b01e34f8",
+        "references": [
+          {
+            "from": "0x3afc9da31",
+            "function": "_Z14read_text_dataRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERbR12octave_valuexb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: no definition for classdef '%s' available"
+      },
+      {
+        "address": "0x3b02131b0",
+        "references": [
+          {
+            "from": "0x3b020de48",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "15octave_classdef"
+      },
+      {
+        "address": "0x3b0213fc0",
+        "references": [
+          {
+            "from": "0x3b020e868",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "20octave_classdef_meta"
+      },
+      {
+        "address": "0x3b02147e0",
+        "references": [
+          {
+            "from": "0x3b020ee48",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "30octave_classdef_superclass_ref"
+      },
+      {
+        "address": "0x3b0215800",
+        "references": [
+          {
+            "from": "0x3b020f8e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave13tree_classdefE"
+      },
+      {
+        "address": "0x3b0216d60",
+        "references": [
+          {
+            "from": "0x3b02107c8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave19tree_classdef_blockINS_23tree_classdef_enum_listEEE"
+      },
+      {
+        "address": "0x3b0216da0",
+        "references": [
+          {
+            "from": "0x3b02107e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave19tree_classdef_blockINS_24tree_classdef_event_listEEE"
+      },
+      {
+        "address": "0x3b0216de0",
+        "references": [
+          {
+            "from": "0x3b0210808",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave19tree_classdef_blockINS_25tree_classdef_method_listEEE"
+      },
+      {
+        "address": "0x3b0216e20",
+        "references": [
+          {
+            "from": "0x3b0210828",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave19tree_classdef_blockINS_27tree_classdef_property_listEEE"
+      },
+      {
+        "address": "0x3b02177a0",
+        "references": [
+          {
+            "from": "0x3b0210d78",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave24tree_base_classdef_blockE"
+      },
+      {
+        "address": "0x3b02177e0",
+        "references": [
+          {
+            "from": "0x3b0210d98",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b02178e0",
+        "references": [
+          {
+            "from": "0x3b0210e18",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b0217920",
+        "references": [
+          {
+            "from": "0x3b0210e38",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b02179a0",
+        "references": [
+          {
+            "from": "0x3b0210e78",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "N6octave30tree_classdef_properties_blockE"
+      },
+      {
+        "address": "0x3b0218e60",
+        "references": [
+          {
+            "from": "0x3b0211a28",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "St15_Sp_counted_ptrIPN6octave13tree_classdefELN9__gnu_cxx12_Lock_policyE2EE"
+      },
+      {
+        "address": "0x3b042c545",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef10load_asciiERSi"
+      },
+      {
+        "address": "0x3b042c56a",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef10save_asciiERSo"
+      },
+      {
+        "address": "0x3b042c58f",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef13register_typeERN6octave9type_infoE"
+      },
+      {
+        "address": "0x3b042c5c8",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef14superclass_refERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_"
+      },
+      {
+        "address": "0x3b042c627",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef14undef_subsasgnERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS0_4listI17octave_value_listSaIS9_EEERK12octave_value"
+      },
+      {
+        "address": "0x3b042c6bb",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef15metaclass_queryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
+      },
+      {
+        "address": "0x3b042c718",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef4sizeEv"
+      },
+      {
+        "address": "0x3b042c734",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef5printERSob"
+      },
+      {
+        "address": "0x3b042c754",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef6xnumelERK17octave_value_list"
+      },
+      {
+        "address": "0x3b042c786",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef7loadobjERSt6vectorISt5tupleIJ10octave_mapjbEESaIS3_EER10dim_vector"
+      },
+      {
+        "address": "0x3b042c7de",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef7saveobjERSt6vectorIbSaIbEE"
+      },
+      {
+        "address": "0x3b042c80e",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef7subsrefERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS0_4listI17octave_value_listSaIS9_EEEb"
+      },
+      {
+        "address": "0x3b042c88b",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef7subsrefERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS0_4listI17octave_value_listSaIS9_EEEi"
+      },
+      {
+        "address": "0x3b042c908",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN15octave_classdef8subsasgnERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS0_4listI17octave_value_listSaIS9_EEERK12octave_value"
+      },
+      {
+        "address": "0x3b042e8dd",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN17octave_base_value21classdef_object_valueEb"
+      },
+      {
+        "address": "0x3b0441dbc",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN30octave_classdef_superclass_ref21is_constructed_objectERN6octave14tree_evaluatorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
+      },
+      {
+        "address": "0x3b0441e48",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN30octave_classdef_superclass_ref7executeERN6octave14tree_evaluatorEiRK17octave_value_list"
+      },
+      {
+        "address": "0x3b0453ff0",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave10cdef_class15make_meta_classERNS_11interpreterEPNS_13tree_classdefEb"
+      },
+      {
+        "address": "0x3b0455301",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser13make_classdefEPNS_5tokenEPNS_28tree_classdef_attribute_listEPNS_15tree_identifierEPNS_29tree_classdef_superclass_listEPNS_18tree_classdef_bodyES2_"
+      },
+      {
+        "address": "0x3b045619a",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser18make_classdef_bodyEPNS_24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b04561e6",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser18make_classdef_bodyEPNS_26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b0456234",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser18make_classdef_bodyEPNS_27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b0456283",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser18make_classdef_bodyEPNS_30tree_classdef_properties_blockE"
+      },
+      {
+        "address": "0x3b04562d5",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser18make_classdef_enumEPNS_15tree_identifierEPNS_5tokenEPNS_15tree_expressionES4_"
+      },
+      {
+        "address": "0x3b0456444",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser19make_classdef_eventEPNS_15tree_identifierE"
+      },
+      {
+        "address": "0x3b0456957",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser20append_classdef_enumEPNS_23tree_classdef_enum_listEPNS_18tree_classdef_enumE"
+      },
+      {
+        "address": "0x3b0456a09",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser20finish_classdef_fileEPNS_13tree_classdefEPNS_19tree_statement_listEPNS_5tokenE"
+      },
+      {
+        "address": "0x3b0456bcd",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser21append_classdef_eventEPNS_24tree_classdef_event_listEPNS_19tree_classdef_eventE"
+      },
+      {
+        "address": "0x3b0457125",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser22append_classdef_methodEPNS_25tree_classdef_method_listEPNS_17tree_function_defE"
+      },
+      {
+        "address": "0x3b045718e",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser22make_classdef_propertyEPNS_15tree_identifierEPNS_19tree_arg_validationE"
+      },
+      {
+        "address": "0x3b04572cb",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser23make_classdef_attributeEPNS_15tree_identifierE"
+      },
+      {
+        "address": "0x3b0457313",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser23make_classdef_attributeEPNS_15tree_identifierEPNS_5tokenEPNS_15tree_expressionE"
+      },
+      {
+        "address": "0x3b045737c",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser23make_classdef_enum_listEPNS_18tree_classdef_enumE"
+      },
+      {
+        "address": "0x3b0457413",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser24append_classdef_propertyEPNS_27tree_classdef_property_listEPNS_22tree_classdef_propertyE"
+      },
+      {
+        "address": "0x3b0457594",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser24make_classdef_enum_blockEPNS_5tokenEPNS_28tree_classdef_attribute_listEPNS_23tree_classdef_enum_listES2_"
+      },
+      {
+        "address": "0x3b0457616",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser24make_classdef_event_listEPNS_19tree_classdef_eventE"
+      },
+      {
+        "address": "0x3b0457663",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser24make_classdef_superclassEPNS_5tokenE"
+      },
+      {
+        "address": "0x3b04576f9",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser25append_classdef_attributeEPNS_28tree_classdef_attribute_listEPNS_5tokenEPNS_23tree_classdef_attributeE"
+      },
+      {
+        "address": "0x3b04577c7",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser25make_classdef_method_listEPNS_17tree_function_defE"
+      },
+      {
+        "address": "0x3b0457813",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser26append_classdef_enum_blockEPNS_18tree_classdef_bodyEPNS_24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b0457880",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser26append_classdef_superclassEPNS_29tree_classdef_superclass_listEPNS_5tokenEPNS_24tree_classdef_superclassE"
+      },
+      {
+        "address": "0x3b0457903",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser26make_classdef_events_blockEPNS_5tokenEPNS_28tree_classdef_attribute_listEPNS_24tree_classdef_event_listES2_"
+      },
+      {
+        "address": "0x3b04579fe",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser27make_classdef_methods_blockEPNS_5tokenEPNS_28tree_classdef_attribute_listEPNS_25tree_classdef_method_listES2_"
+      },
+      {
+        "address": "0x3b0457a85",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser27make_classdef_property_listEPNS_22tree_classdef_propertyE"
+      },
+      {
+        "address": "0x3b0457ad8",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser27make_not_classdef_attributeEPNS_5tokenEPNS_15tree_identifierE"
+      },
+      {
+        "address": "0x3b0457b2f",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser28append_classdef_events_blockEPNS_18tree_classdef_bodyEPNS_26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b0457ba0",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser28make_classdef_attribute_listEPNS_23tree_classdef_attributeE"
+      },
+      {
+        "address": "0x3b0457bf5",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser29append_classdef_methods_blockEPNS_18tree_classdef_bodyEPNS_27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b0457c68",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser29make_classdef_superclass_listEPNS_5tokenEPNS_24tree_classdef_superclassE"
+      },
+      {
+        "address": "0x3b0457d03",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser30make_classdef_properties_blockEPNS_5tokenEPNS_28tree_classdef_attribute_listEPNS_27tree_classdef_property_listES2_"
+      },
+      {
+        "address": "0x3b0457d8f",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser30start_classdef_external_methodEPNS_15tree_identifierEPNS_19tree_parameter_listE"
+      },
+      {
+        "address": "0x3b0457e47",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser31finish_classdef_external_methodEP20octave_user_functionPNS_19tree_parameter_listEPNS_5tokenE"
+      },
+      {
+        "address": "0x3b0457ebd",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11base_parser32append_classdef_properties_blockEPNS_18tree_classdef_bodyEPNS_30tree_classdef_properties_blockE"
+      },
+      {
+        "address": "0x3b045add6",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker14visit_classdefERNS_13tree_classdefE"
+      },
+      {
+        "address": "0x3b045b1b5",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker19visit_classdef_bodyERNS_18tree_classdef_bodyE"
+      },
+      {
+        "address": "0x3b045b1fc",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker19visit_classdef_enumERNS_18tree_classdef_enumE"
+      },
+      {
+        "address": "0x3b045b31a",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker20visit_classdef_eventERNS_19tree_classdef_eventE"
+      },
+      {
+        "address": "0x3b045b862",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker23visit_classdef_propertyERNS_22tree_classdef_propertyE"
+      },
+      {
+        "address": "0x3b045b9ef",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker24visit_classdef_attributeERNS_23tree_classdef_attributeE"
+      },
+      {
+        "address": "0x3b045ba40",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker24visit_classdef_enum_listERNS_23tree_classdef_enum_listE"
+      },
+      {
+        "address": "0x3b045bbce",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker25visit_classdef_enum_blockERNS_24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b045bc21",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker25visit_classdef_event_listERNS_24tree_classdef_event_listE"
+      },
+      {
+        "address": "0x3b045bc74",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker25visit_classdef_superclassERNS_24tree_classdef_superclassE"
+      },
+      {
+        "address": "0x3b045bd1a",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker26visit_classdef_method_listERNS_25tree_classdef_method_listE"
+      },
+      {
+        "address": "0x3b045bdbb",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker27visit_classdef_events_blockERNS_26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b045be12",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker28visit_classdef_methods_blockERNS_27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b045be6b",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker28visit_classdef_property_listERNS_27tree_classdef_property_listE"
+      },
+      {
+        "address": "0x3b045bf1d",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker29visit_classdef_attribute_listERNS_28tree_classdef_attribute_listE"
+      },
+      {
+        "address": "0x3b045bf78",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker30visit_classdef_superclass_listERNS_29tree_classdef_superclass_listE"
+      },
+      {
+        "address": "0x3b045c034",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave11tree_walker31visit_classdef_properties_blockERNS_30tree_classdef_properties_blockE"
+      },
+      {
+        "address": "0x3b0460182",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave13tree_classdef15make_meta_classERNS_11interpreterEb"
+      },
+      {
+        "address": "0x3b046c090",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC1EPNS_24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b046c0d1",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC1EPNS_26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b046c114",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC1EPNS_27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b046c158",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC1EPNS_30tree_classdef_properties_blockE"
+      },
+      {
+        "address": "0x3b046c19f",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC1Ev"
+      },
+      {
+        "address": "0x3b046c1c2",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC2EPNS_24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b046c203",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC2EPNS_26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b046c246",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC2EPNS_27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b046c28a",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC2EPNS_30tree_classdef_properties_blockE"
+      },
+      {
+        "address": "0x3b046c2d1",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyC2Ev"
+      },
+      {
+        "address": "0x3b046c2f4",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyD1Ev"
+      },
+      {
+        "address": "0x3b046c317",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_bodyD2Ev"
+      },
+      {
+        "address": "0x3b046c33a",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_enumC1EPNS_15tree_identifierERKNS_5tokenEPNS_15tree_expressionES5_"
+      },
+      {
+        "address": "0x3b046c397",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave18tree_classdef_enumC2EPNS_15tree_identifierERKNS_5tokenEPNS_15tree_expressionES5_"
+      },
+      {
+        "address": "0x3b046cd39",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave19tree_classdef_eventC1EPNS_15tree_identifierE"
+      },
+      {
+        "address": "0x3b046cd72",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave19tree_classdef_eventC2EPNS_15tree_identifierE"
+      },
+      {
+        "address": "0x3b046eb52",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_classdef_property10expressionEv"
+      },
+      {
+        "address": "0x3b046eb83",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_classdef_property16leading_commentsEv"
+      },
+      {
+        "address": "0x3b046ebba",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_classdef_property5identEv"
+      },
+      {
+        "address": "0x3b046ebe5",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_classdef_propertyC1EPNS_19tree_arg_validationE"
+      },
+      {
+        "address": "0x3b046ec25",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_classdef_propertyC2EPNS_19tree_arg_validationE"
+      },
+      {
+        "address": "0x3b046ec65",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_classdef_propertyD1Ev"
+      },
+      {
+        "address": "0x3b046ec8c",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_classdef_propertyD2Ev"
+      },
+      {
+        "address": "0x3b046f1dd",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave23tree_classdef_enum_listD1Ev"
+      },
+      {
+        "address": "0x3b046f205",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave23tree_classdef_enum_listD2Ev"
+      },
+      {
+        "address": "0x3b046f7e5",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave24tree_classdef_event_listD1Ev"
+      },
+      {
+        "address": "0x3b046f80e",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave24tree_classdef_event_listD2Ev"
+      },
+      {
+        "address": "0x3b046fe50",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave27tree_classdef_property_listD1Ev"
+      },
+      {
+        "address": "0x3b046fe7c",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave27tree_classdef_property_listD2Ev"
+      },
+      {
+        "address": "0x3b0470090",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave28tree_classdef_attribute_listD1Ev"
+      },
+      {
+        "address": "0x3b04700bd",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave28tree_classdef_attribute_listD2Ev"
+      },
+      {
+        "address": "0x3b0470232",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave29tree_classdef_superclass_listD1Ev"
+      },
+      {
+        "address": "0x3b0470260",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave29tree_classdef_superclass_listD2Ev"
+      },
+      {
+        "address": "0x3b0482744",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK12octave_value21classdef_object_valueEb"
+      },
+      {
+        "address": "0x3b0483b9b",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK15octave_classdef14is_instance_ofERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
+      },
+      {
+        "address": "0x3b0483bf8",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK15octave_classdef7reshapeERK10dim_vector"
+      },
+      {
+        "address": "0x3b0483c25",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK15octave_classdef9print_rawERSob"
+      },
+      {
+        "address": "0x3b049cff7",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK20octave_classdef_meta10doc_stringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
+      },
+      {
+        "address": "0x3b049d055",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK20octave_classdef_meta18is_classdef_methodERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
+      },
+      {
+        "address": "0x3b049d0bb",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK20octave_classdef_meta23is_classdef_constructorERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
+      },
+      {
+        "address": "0x3b049d126",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK20octave_classdef_meta9file_nameB5cxx11Ev"
+      },
+      {
+        "address": "0x3b04ad0c6",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZNK6octave18tree_classdef_body16leading_commentsEv"
+      },
+      {
+        "address": "0x3b04b1148",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTIN6octave13tree_classdefE"
+      },
+      {
+        "address": "0x3b04b1d65",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTIN6octave24tree_base_classdef_blockE"
+      },
+      {
+        "address": "0x3b04b1d8d",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTIN6octave24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b04b1ddd",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTIN6octave26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b04b1e07",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTIN6octave27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b04b1e5d",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTIN6octave30tree_classdef_properties_blockE"
+      },
+      {
+        "address": "0x3b04b360d",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTVN6octave13tree_classdefE"
+      },
+      {
+        "address": "0x3b04b422a",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTVN6octave24tree_base_classdef_blockE"
+      },
+      {
+        "address": "0x3b04b4252",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTVN6octave24tree_classdef_enum_blockE"
+      },
+      {
+        "address": "0x3b04b42a2",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTVN6octave26tree_classdef_events_blockE"
+      },
+      {
+        "address": "0x3b04b42cc",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTVN6octave27tree_classdef_methods_blockE"
+      },
+      {
+        "address": "0x3b04b4322",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZTVN6octave30tree_classdef_properties_blockE"
+      }
+    ],
+    "total": 188
+  },
+  "summary": "188 strings match \"classdef\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 188,
+    "total": 188
+  },
+  "locations": [],
+  "links": []
+}

@@ -1,0 +1,132 @@
+{
+  "id": "ev_2f1eed556bf51a06d6b82455bae4ff07b8ace0712026cc820eaccbe48220691a",
+  "subject": {
+    "kind": "pe",
+    "sha256": "d48ead95797e7ed1ff536f7c9e578b9f901e9d061e2a63a4a9a33673ab002701",
+    "name": "liboctinterp-15.dll"
+  },
+  "operation": "core_target_triage",
+  "params": {
+    "path": null
+  },
+  "result": {
+    "architecture": "x86_64",
+    "bits": 64,
+    "dotnet_arch": null,
+    "entry_point": "0x3af3a11f0",
+    "format": "pe",
+    "format_name": "PE (Windows)",
+    "kind": "shared-library",
+    "libraries": [
+      "ADVAPI32.dll",
+      "GDI32.dll",
+      "GLU32.dll",
+      "KERNEL32.dll",
+      "OPENGL32.dll",
+      "SHELL32.dll",
+      "USER32.dll",
+      "api-ms-win-crt-conio-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "libGraphicsMagick++-12.dll",
+      "libGraphicsMagick-3.dll",
+      "libamd.dll",
+      "libccolamd.dll",
+      "libcholmod.dll",
+      "libcolamd.dll",
+      "libcxsparse.dll",
+      "libfontconfig-1.dll",
+      "libfreetype-6.dll",
+      "libgcc_s_seh-1.dll",
+      "libgl2ps.dll",
+      "libgomp-1.dll",
+      "libhdf5.dll"
+    ],
+    "next_steps": [
+      {
+        "tool": "core_overview_show",
+        "why": "a one-page summary: sections, imports, counts"
+      },
+      {
+        "tool": "native_functions_list",
+        "why": "every function we found"
+      },
+      {
+        "tool": "native_strings_find",
+        "why": "find text the program shows or uses"
+      },
+      {
+        "tool": "native_function_study",
+        "why": "a full dossier on one function (start with main or the entry point)"
+      },
+      {
+        "tool": "core_feature_find",
+        "why": "follow a word you see in the app to the code behind it"
+      },
+      {
+        "tool": "native_pe_resources_list",
+        "why": "icons, version information and the manifest"
+      }
+    ],
+    "operating_system": "Windows",
+    "plain_english": "liboctinterp-15.dll is a library (code other programs load) for Windows, built for x86_64 (64-bit). It looks like it was made with Java native library (JNI). Its internal names were removed (stripped), so most functions will have generated names.",
+    "recommended_toolsets": [
+      "core",
+      "native",
+      "formats"
+    ],
+    "stripped": true,
+    "symbol_table_stripped": true,
+    "toolchain_hints": [
+      {
+        "category": "framework",
+        "evidence": "exports JNI entry points",
+        "id": "jni",
+        "label": "Java native library (JNI)",
+        "strength": "strong"
+      },
+      {
+        "category": "compiler",
+        "evidence": "MinGW runtime markers",
+        "id": "mingw",
+        "label": "MinGW (GCC for Windows)",
+        "strength": "weak"
+      }
+    ]
+  },
+  "summary": "liboctinterp-15.dll is a library (code other programs load) for Windows, built for x86_64 (64-bit). It looks like it was made with Java native library (JNI). Its internal names were removed (stripped), so most functions will have generated names.",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "heuristic_hints",
+      "message": "toolchain and packer hints come from markers that can be faked or borrowed"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x3af3a11f0",
+      "label": "entry point"
+    }
+  ],
+  "links": []
+}

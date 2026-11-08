@@ -1,0 +1,1055 @@
+{
+  "id": "ev_35ba24c7f843c5b4673053e7534c2feea79e2ff9dd9a7e901f989bd8833626fd",
+  "subject": {
+    "kind": "pe",
+    "sha256": "d48ead95797e7ed1ff536f7c9e578b9f901e9d061e2a63a4a9a33673ab002701",
+    "name": "liboctinterp-15.dll"
+  },
+  "operation": "native_offered_symbols_list",
+  "params": {
+    "contains": null,
+    "limit": 200,
+    "offset": 0,
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\GNU Octave\\Octave-11.3.0\\mingw64\\bin\\liboctinterp-15.dll"
+  },
+  "result": {
+    "details": {
+      "declared_functions": 9425,
+      "declared_names": 9425,
+      "library_name": "liboctinterp-15.dll",
+      "ordinal_base": 1
+    },
+    "exports": [
+      {
+        "address": "0x3af7c2fc0",
+        "name": "Java_org_octave_OctaveReference_doFinalize",
+        "ordinal": 1
+      },
+      {
+        "address": "0x3af7cc570",
+        "name": "Java_org_octave_Octave_call",
+        "ordinal": 2
+      },
+      {
+        "address": "0x3af7c3330",
+        "name": "Java_org_octave_Octave_doEvalString",
+        "ordinal": 3
+      },
+      {
+        "address": "0x3af7c9070",
+        "name": "Java_org_octave_Octave_doInvoke",
+        "ordinal": 4
+      },
+      {
+        "address": "0x3af7c5c70",
+        "name": "Java_org_octave_Octave_needThreadedInvokation",
+        "ordinal": 5
+      },
+      {
+        "address": "0x3b0406aa0",
+        "name": "Vdebug_java",
+        "ordinal": 6
+      },
+      {
+        "address": "0x3b040b240",
+        "name": "Vdrawnow_requested",
+        "ordinal": 7
+      },
+      {
+        "address": "0x3b0406aa1",
+        "name": "Vjava_matrix_autoconversion",
+        "ordinal": 8
+      },
+      {
+        "address": "0x3b0141564",
+        "name": "Vjava_unsigned_autoconversion",
+        "ordinal": 9
+      },
+      {
+        "address": "0x3b040b250",
+        "name": "Vlast_prompt_time",
+        "ordinal": 10
+      },
+      {
+        "address": "0x3afcf1890",
+        "name": "_Z11mexSet_impldPKcP7mxArray",
+        "ordinal": 11
+      },
+      {
+        "address": "0x3afa447e0",
+        "name": "_Z11parse_errorPKcz",
+        "ordinal": 12
+      },
+      {
+        "address": "0x3afc9bf80",
+        "name": "_Z12save_three_dRSoRK12octave_valueb",
+        "ordinal": 13
+      },
+      {
+        "address": "0x3afa44810",
+        "name": "_Z12vparse_errorPKcPc",
+        "ordinal": 14
+      },
+      {
+        "address": "0x3afc71210",
+        "name": "_Z13add_hdf5_dataxRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_bb",
+        "ordinal": 15
+      },
+      {
+        "address": "0x3afa44830",
+        "name": "_Z13error_with_idPKcS0_z",
+        "ordinal": 16
+      },
+      {
+        "address": "0x3afc70c50",
+        "name": "_Z13hdf5_add_attrxPKc",
+        "ordinal": 17
+      },
+      {
+        "address": "0x3af8165f0",
+        "name": "_Z13install_typesRN6octave9type_infoE",
+        "ordinal": 18
+      },
+      {
+        "address": "0x3af754eb0",
+        "name": "_Z13make_idx_argsRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_4listI17octave_value_listSaIS8_EEES6_",
+        "ordinal": 19
+      },
+      {
+        "address": "0x3afcf4a00",
+        "name": "_Z13mx_to_ov_argsiPP7mxArray",
+        "ordinal": 20
+      },
+      {
+        "address": "0x3afa445c0",
+        "name": "_Z13usage_with_idPKcS0_z",
+        "ordinal": 21
+      },
+      {
+        "address": "0x3afa447a0",
+        "name": "_Z14error_with_cfnPKcz",
+        "ordinal": 22
+      },
+      {
+        "address": "0x3afc71920",
+        "name": "_Z14read_hdf5_dataRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERbR12octave_valueRS5_RK13string_vectorii",
+        "ordinal": 23
+      },
+      {
+        "address": "0x3afc9d3c0",
+        "name": "_Z14read_text_dataRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERbR12octave_valuexb",
+        "ordinal": 24
+      },
+      {
+        "address": "0x3afc717c0",
+        "name": "_Z14save_hdf5_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_bb",
+        "ordinal": 25
+      },
+      {
+        "address": "0x3afc9bb00",
+        "name": "_Z14save_text_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbi",
+        "ordinal": 26
+      },
+      {
+        "address": "0x3afa44820",
+        "name": "_Z14verror_with_idPKcS0_Pc",
+        "ordinal": 27
+      },
+      {
+        "address": "0x3afa44590",
+        "name": "_Z14vusage_with_idPKcS0_Pc",
+        "ordinal": 28
+      },
+      {
+        "address": "0x3afa4dfd0",
+        "name": "_Z14warn_empty_argPKc",
+        "ordinal": 29
+      },
+      {
+        "address": "0x3b04061c0",
+        "name": "_Z15btyp_class_nameB5cxx11",
+        "ordinal": 30
+      },
+      {
+        "address": "0x3afc9c430",
+        "name": "_Z15extract_keywordB5cxx11RSiPKcb",
+        "ordinal": 31
+      },
+      {
+        "address": "0x3afc70a90",
+        "name": "_Z15hdf5_check_attrxPKc",
+        "ordinal": 32
+      },
+      {
+        "address": "0x3afc70f50",
+        "name": "_Z15load_hdf5_emptyxPKcR10dim_vector",
+        "ordinal": 33
+      },
+      {
+        "address": "0x3af6c2b50",
+        "name": "_Z15safe_comparator8sortmodeRK5ArrayI12octave_valueNSt3pmr21polymorphic_allocatorIS1_EEEb",
+        "ordinal": 34
+      },
+      {
+        "address": "0x3af6c3450",
+        "name": "_Z15safe_comparator8sortmodeRK5ArrayIN6octave11cdef_objectENSt3pmr21polymorphic_allocatorIS2_EEEb",
+        "ordinal": 35
+      },
+      {
+        "address": "0x3af6c2fd0",
+        "name": "_Z15safe_comparator8sortmodeRK5ArrayIP12octave_valueNSt3pmr21polymorphic_allocatorIS2_EEEb",
+        "ordinal": 36
+      },
+      {
+        "address": "0x3afc70db0",
+        "name": "_Z15save_hdf5_emptyxPKcRK10dim_vector",
+        "ordinal": 37
+      },
+      {
+        "address": "0x3afd731f0",
+        "name": "_Z15set_output_preci",
+        "ordinal": 38
+      },
+      {
+        "address": "0x3afa447d0",
+        "name": "_Z15verror_with_cfnPKcPc",
+        "ordinal": 39
+      },
+      {
+        "address": "0x3afa46190",
+        "name": "_Z15warning_with_idPKcS0_z",
+        "ordinal": 40
+      },
+      {
+        "address": "0x3afc70c30",
+        "name": "_Z16hdf5_h5g_iteratexPKcPiPv",
+        "ordinal": 41
+      },
+      {
+        "address": "0x3afd731e0",
+        "name": "_Z16output_precisionv",
+        "ordinal": 42
+      },
+      {
+        "address": "0x3afc998f0",
+        "name": "_Z16read_binary_dataRSibN6octave9mach_info12float_formatERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERbR12octave_valueRS8_",
+        "ordinal": 43
+      },
+      {
+        "address": "0x3afc98dd0",
+        "name": "_Z16save_binary_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_bb",
+        "ordinal": 44
+      },
+      {
+        "address": "0x3afa46220",
+        "name": "_Z16vwarning_with_idPKcS0_Pc",
+        "ordinal": 45
+      },
+      {
+        "address": "0x3afa4df50",
+        "name": "_Z16warn_complex_cmpv",
+        "ordinal": 46
+      },
+      {
+        "address": "0x3afa4dfe0",
+        "name": "_Z16warn_empty_indexRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 47
+      },
+      {
+        "address": "0x3afa4dc20",
+        "name": "_Z17err_nonconformantv",
+        "ordinal": 48
+      },
+      {
+        "address": "0x3afa4dc40",
+        "name": "_Z17err_nonconformantxxxx",
+        "ordinal": 49
+      },
+      {
+        "address": "0x3afa4dc80",
+        "name": "_Z17err_range_invalidv",
+        "ordinal": 50
+      },
+      {
+        "address": "0x3afa44850",
+        "name": "_Z17error_with_id_cfnPKcS0_z",
+        "ordinal": 51
+      },
+      {
+        "address": "0x3afe7bf10",
+        "name": "_Z17is_valid_functionRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb",
+        "ordinal": 52
+      },
+      {
+        "address": "0x3afe7be10",
+        "name": "_Z17is_valid_functionRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_b",
+        "ordinal": 53
+      },
+      {
+        "address": "0x3afcf12e0",
+        "name": "_Z17mexErrMsgTxt_implPKcS0_",
+        "ordinal": 54
+      },
+      {
+        "address": "0x3afc71200",
+        "name": "_Z17save_type_to_hdf59save_type",
+        "ordinal": 55
+      },
+      {
+        "address": "0x3af7528b0",
+        "name": "_Z18btyp_mixed_numeric14builtin_type_tS_",
+        "ordinal": 56
+      },
+      {
+        "address": "0x3afa4dcc0",
+        "name": "_Z18err_string_invalidv",
+        "ordinal": 57
+      },
+      {
+        "address": "0x3afa4e6c0",
+        "name": "_Z18err_wrong_type_argPKc",
+        "ordinal": 58
+      },
+      {
+        "address": "0x3afa4e460",
+        "name": "_Z18err_wrong_type_argPKcRK12octave_value",
+        "ordinal": 59
+      },
+      {
+        "address": "0x3afa4e330",
+        "name": "_Z18err_wrong_type_argPKcRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 60
+      },
+      {
+        "address": "0x3afa4e200",
+        "name": "_Z18err_wrong_type_argPKcS0_",
+        "ordinal": 61
+      },
+      {
+        "address": "0x3afa4e900",
+        "name": "_Z18err_wrong_type_argRK12octave_value",
+        "ordinal": 62
+      },
+      {
+        "address": "0x3afa4e7e0",
+        "name": "_Z18err_wrong_type_argRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 63
+      },
+      {
+        "address": "0x3afa4e590",
+        "name": "_Z18err_wrong_type_argRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK12octave_value",
+        "ordinal": 64
+      },
+      {
+        "address": "0x3afa4ddf0",
+        "name": "_Z18err_wrong_type_argRN6octave19execution_exceptionEPKc",
+        "ordinal": 65
+      },
+      {
+        "address": "0x3afa4dd90",
+        "name": "_Z18err_wrong_type_argRN6octave19execution_exceptionEPKcRK12octave_value",
+        "ordinal": 66
+      },
+      {
+        "address": "0x3afa4dd80",
+        "name": "_Z18err_wrong_type_argRN6octave19execution_exceptionEPKcRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 67
+      },
+      {
+        "address": "0x3afa4dd60",
+        "name": "_Z18err_wrong_type_argRN6octave19execution_exceptionEPKcS3_",
+        "ordinal": 68
+      },
+      {
+        "address": "0x3afa4de20",
+        "name": "_Z18err_wrong_type_argRN6octave19execution_exceptionERK12octave_value",
+        "ordinal": 69
+      },
+      {
+        "address": "0x3afa4de10",
+        "name": "_Z18err_wrong_type_argRN6octave19execution_exceptionERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 70
+      },
+      {
+        "address": "0x3afa4dde0",
+        "name": "_Z18err_wrong_type_argRN6octave19execution_exceptionERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK12octave_value",
+        "ordinal": 71
+      },
+      {
+        "address": "0x3af7143c0",
+        "name": "_Z18liboctinterp_hg_idB5cxx11v",
+        "ordinal": 72
+      },
+      {
+        "address": "0x3afa448f0",
+        "name": "_Z18verror_with_id_cfnPKcS0_Pc",
+        "ordinal": 73
+      },
+      {
+        "address": "0x3af7538b0",
+        "name": "_Z19called_from_builtinv",
+        "ordinal": 74
+      },
+      {
+        "address": "0x3afa4db00",
+        "name": "_Z19err_2_or_3_dim_plotv",
+        "ordinal": 75
+      },
+      {
+        "address": "0x3afa4db20",
+        "name": "_Z19err_data_conversionPKcS0_",
+        "ordinal": 76
+      },
+      {
+        "address": "0x3afa4db80",
+        "name": "_Z19err_indexed_cs_listv",
+        "ordinal": 77
+      },
+      {
+        "address": "0x3afa4dc60",
+        "name": "_Z19err_not_implementedPKc",
+        "ordinal": 78
+      },
+      {
+        "address": "0x3afc73d20",
+        "name": "_Z19hdf5_read_next_dataxPKcPv",
+        "ordinal": 79
+      },
+      {
+        "address": "0x3afcf5990",
+        "name": "_Z19mexPutVariable_implPKcS0_PK7mxArray",
+        "ordinal": 80
+      },
+      {
+        "address": "0x3afa44870",
+        "name": "_Z19parse_error_with_idPKcS0_z",
+        "ordinal": 81
+      },
+      {
+        "address": "0x3afc75ef0",
+        "name": "_Z19read_mat_ascii_dataRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER12octave_value",
+        "ordinal": 82
+      },
+      {
+        "address": "0x3afc74f50",
+        "name": "_Z19save_mat_ascii_dataRSoRK12octave_valueib",
+        "ordinal": 83
+      },
+      {
+        "address": "0x3afa4e070",
+        "name": "_Z19warn_wrong_type_argPKcRK12octave_value",
+        "ordinal": 84
+      },
+      {
+        "address": "0x3afa4db40",
+        "name": "_Z20err_disabled_featureRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_S6_",
+        "ordinal": 85
+      },
+      {
+        "address": "0x3afc70d00",
+        "name": "_Z20hdf5_add_scalar_attrxxPKcPv",
+        "ordinal": 86
+      },
+      {
+        "address": "0x3afc70b10",
+        "name": "_Z20hdf5_get_scalar_attrxxPKcPv",
+        "ordinal": 87
+      },
+      {
+        "address": "0x3afc83420",
+        "name": "_Z20read_mat_binary_dataRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER12octave_value",
+        "ordinal": 88
+      },
+      {
+        "address": "0x3afc83320",
+        "name": "_Z20read_mat_file_headerRSiRbRiS1_S1_S1_S1_i",
+        "ordinal": 89
+      },
+      {
+        "address": "0x3afc867e0",
+        "name": "_Z20save_mat_binary_dataRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 90
+      },
+      {
+        "address": "0x3afa44900",
+        "name": "_Z20vparse_error_with_idPKcS0_Pc",
+        "ordinal": 91
+      },
+      {
+        "address": "0x3afc709e0",
+        "name": "_Z21hdf5_types_compatiblexx",
+        "ordinal": 92
+      },
+      {
+        "address": "0x3afd84890",
+        "name": "_Z21octave_print_internalRSoRK10DiagMatrixbi",
+        "ordinal": 93
+      },
+      {
+        "address": "0x3afd82a20",
+        "name": "_Z21octave_print_internalRSoRK10PermMatrixbi",
+        "ordinal": 94
+      },
+      {
+        "address": "0x3afd8a8a0",
+        "name": "_Z21octave_print_internalRSoRK10boolMatrixbi",
+        "ordinal": 95
+      },
+      {
+        "address": "0x3afd79db0",
+        "name": "_Z21octave_print_internalRSoRK10charMatrixbib",
+        "ordinal": 96
+      },
+      {
+        "address": "0x3afd8c540",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intIaEEbi",
+        "ordinal": 97
+      },
+      {
+        "address": "0x3afd8a890",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intIhEEbi",
+        "ordinal": 98
+      },
+      {
+        "address": "0x3afd91320",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intIiEEbi",
+        "ordinal": 99
+      },
+      {
+        "address": "0x3afd92d30",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intIjEEbi",
+        "ordinal": 100
+      },
+      {
+        "address": "0x3afd8df50",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intIsEEbi",
+        "ordinal": 101
+      },
+      {
+        "address": "0x3afd8f910",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intItEEbi",
+        "ordinal": 102
+      },
+      {
+        "address": "0x3afd94780",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intIxEEbi",
+        "ordinal": 103
+      },
+      {
+        "address": "0x3afd961c0",
+        "name": "_Z21octave_print_internalRSoRK10intNDArrayI10octave_intIyEEbi",
+        "ordinal": 104
+      },
+      {
+        "address": "0x3afd7e780",
+        "name": "_Z21octave_print_internalRSoRK11FloatMatrixbi",
+        "ordinal": 105
+      },
+      {
+        "address": "0x3afd8aa40",
+        "name": "_Z21octave_print_internalRSoRK11boolNDArraybi",
+        "ordinal": 106
+      },
+      {
+        "address": "0x3afd88120",
+        "name": "_Z21octave_print_internalRSoRK11charNDArraybib",
+        "ordinal": 107
+      },
+      {
+        "address": "0x3afd87bb0",
+        "name": "_Z21octave_print_internalRSoRK12FloatNDArraybi",
+        "ordinal": 108
+      },
+      {
+        "address": "0x3afd7a340",
+        "name": "_Z21octave_print_internalRSoRK12octave_valueb",
+        "ordinal": 109
+      },
+      {
+        "address": "0x3afd82090",
+        "name": "_Z21octave_print_internalRSoRK13ComplexMatrixbi",
+        "ordinal": 110
+      },
+      {
+        "address": "0x3afd87d80",
+        "name": "_Z21octave_print_internalRSoRK14ComplexNDArraybi",
+        "ordinal": 111
+      },
+      {
+        "address": "0x3afd865a0",
+        "name": "_Z21octave_print_internalRSoRK15FloatDiagMatrixbi",
+        "ordinal": 112
+      },
+      {
+        "address": "0x3afd85890",
+        "name": "_Z21octave_print_internalRSoRK17ComplexDiagMatrixbi",
+        "ordinal": 113
+      },
+      {
+        "address": "0x3afd7f4f0",
+        "name": "_Z21octave_print_internalRSoRK18FloatComplexMatrixbi",
+        "ordinal": 114
+      },
+      {
+        "address": "0x3afd87f50",
+        "name": "_Z21octave_print_internalRSoRK19FloatComplexNDArraybi",
+        "ordinal": 115
+      },
+      {
+        "address": "0x3afd79fe0",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intIaEb",
+        "ordinal": 116
+      },
+      {
+        "address": "0x3afd7a050",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intIhEb",
+        "ordinal": 117
+      },
+      {
+        "address": "0x3afd7a180",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intIiEb",
+        "ordinal": 118
+      },
+      {
+        "address": "0x3afd7a1f0",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intIjEb",
+        "ordinal": 119
+      },
+      {
+        "address": "0x3afd7a0b0",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intIsEb",
+        "ordinal": 120
+      },
+      {
+        "address": "0x3afd7a120",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intItEb",
+        "ordinal": 121
+      },
+      {
+        "address": "0x3afd7a250",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intIxEb",
+        "ordinal": 122
+      },
+      {
+        "address": "0x3afd7a2c0",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRK10octave_intIyEb",
+        "ordinal": 123
+      },
+      {
+        "address": "0x3afd82950",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRKSt7complexIdEb",
+        "ordinal": 124
+      },
+      {
+        "address": "0x3afd7f710",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatRKSt7complexIfEb",
+        "ordinal": 125
+      },
+      {
+        "address": "0x3afd79cf0",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatbb",
+        "ordinal": 126
+      },
+      {
+        "address": "0x3afd79d90",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatcb",
+        "ordinal": 127
+      },
+      {
+        "address": "0x3afd80800",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatdb",
+        "ordinal": 128
+      },
+      {
+        "address": "0x3afd7f7d0",
+        "name": "_Z21octave_print_internalRSoRK20float_display_formatfb",
+        "ordinal": 129
+      },
+      {
+        "address": "0x3afd875c0",
+        "name": "_Z21octave_print_internalRSoRK22FloatComplexDiagMatrixbi",
+        "ordinal": 130
+      },
+      {
+        "address": "0x3afd7a320",
+        "name": "_Z21octave_print_internalRSoRK4Cellbib",
+        "ordinal": 131
+      },
+      {
+        "address": "0x3afd88300",
+        "name": "_Z21octave_print_internalRSoRK5ArrayINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt3pmr21polymorphic_allocatorIS6_EEEbi",
+        "ordinal": 132
+      },
+      {
+        "address": "0x3afd812c0",
+        "name": "_Z21octave_print_internalRSoRK6Matrixbi",
+        "ordinal": 133
+      },
+      {
+        "address": "0x3afd879e0",
+        "name": "_Z21octave_print_internalRSoRK7NDArraybi",
+        "ordinal": 134
+      },
+      {
+        "address": "0x3afd820a0",
+        "name": "_Z21octave_print_internalRSoRKN6octave5rangeIdvEEbi",
+        "ordinal": 135
+      },
+      {
+        "address": "0x3afd88e70",
+        "name": "_Z21octave_print_internalRSoRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbi",
+        "ordinal": 136
+      },
+      {
+        "address": "0x3afd79d60",
+        "name": "_Z21octave_print_internalRSobb",
+        "ordinal": 137
+      },
+      {
+        "address": "0x3afa4dee0",
+        "name": "_Z21warn_array_as_logicalRK10dim_vector",
+        "ordinal": 138
+      },
+      {
+        "address": "0x3afa4df90",
+        "name": "_Z21warn_disabled_featureRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_S6_",
+        "ordinal": 139
+      },
+      {
+        "address": "0x3afa4dba0",
+        "name": "_Z22err_invalid_conversionRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_",
+        "ordinal": 140
+      },
+      {
+        "address": "0x3afa4e0e0",
+        "name": "_Z22err_user_supplied_evalPKc",
+        "ordinal": 141
+      },
+      {
+        "address": "0x3afa4dd40",
+        "name": "_Z22err_user_supplied_evalRN6octave19execution_exceptionEPKc",
+        "ordinal": 142
+      },
+      {
+        "address": "0x3afc70bd0",
+        "name": "_Z22hdf5_make_complex_typex",
+        "ordinal": 143
+      },
+      {
+        "address": "0x3afa4df70",
+        "name": "_Z22warn_data_file_in_pathRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_",
+        "ordinal": 144
+      },
+      {
+        "address": "0x3afa4e050",
+        "name": "_Z23warn_logical_conversionv",
+        "ordinal": 145
+      },
+      {
+        "address": "0x3afc8d8a0",
+        "name": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value",
+        "ordinal": 146
+      },
+      {
+        "address": "0x3afc954f0",
+        "name": "_Z24save_mat5_binary_elementRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbbbb",
+        "ordinal": 147
+      },
+      {
+        "address": "0x3afa4e000",
+        "name": "_Z24warn_implicit_conversionPKcS0_S0_",
+        "ordinal": 148
+      },
+      {
+        "address": "0x3afa4e020",
+        "name": "_Z24warn_implicit_conversionRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_S6_",
+        "ordinal": 149
+      },
+      {
+        "address": "0x3afa4dce0",
+        "name": "_Z25err_unrecognized_data_fmtPKc",
+        "ordinal": 150
+      },
+      {
+        "address": "0x3afa4dd20",
+        "name": "_Z25err_user_returned_invalidPKc",
+        "ordinal": 151
+      },
+      {
+        "address": "0x3afc76b90",
+        "name": "_Z25looks_like_mat_ascii_fileRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 152
+      },
+      {
+        "address": "0x3afa4dca0",
+        "name": "_Z26err_square_matrix_requiredPKcS0_",
+        "ordinal": 153
+      },
+      {
+        "address": "0x3afa4dd00",
+        "name": "_Z26err_unrecognized_float_fmtv",
+        "ordinal": 154
+      },
+      {
+        "address": "0x3afc83400",
+        "name": "_Z26float_format_to_mopt_digitN6octave9mach_info12float_formatE",
+        "ordinal": 155
+      },
+      {
+        "address": "0x3afc833e0",
+        "name": "_Z26mopt_digit_to_float_formati",
+        "ordinal": 156
+      },
+      {
+        "address": "0x3afc9be90",
+        "name": "_Z27save_text_data_for_plottingRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 157
+      },
+      {
+        "address": "0x3afc94d30",
+        "name": "_Z28read_mat5_binary_file_headerRSiRbbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 158
+      },
+      {
+        "address": "0x3afa4e040",
+        "name": "_Z28warn_invalid_value_specifiedPKc",
+        "ordinal": 159
+      },
+      {
+        "address": "0x3afa4dbc0",
+        "name": "_Z29err_invalid_inquiry_subscriptv",
+        "ordinal": 160
+      },
+      {
+        "address": "0x3afa4dea0",
+        "name": "_Z31err_wrong_type_arg_for_unary_opRK12octave_value",
+        "ordinal": 161
+      },
+      {
+        "address": "0x3afa4dbe0",
+        "name": "_Z32err_invalid_structure_assignmentv",
+        "ordinal": 162
+      },
+      {
+        "address": "0x3afa4dc00",
+        "name": "_Z32err_nonbraced_cs_list_assignmentv",
+        "ordinal": 163
+      },
+      {
+        "address": "0x3afa4de60",
+        "name": "_Z32err_wrong_type_arg_for_binary_opRK12octave_value",
+        "ordinal": 164
+      },
+      {
+        "address": "0x3afa44770",
+        "name": "_Z5errorPKcz",
+        "ordinal": 165
+      },
+      {
+        "address": "0x3afa44380",
+        "name": "_Z5errorRN6octave19execution_exceptionEPKcz",
+        "ordinal": 166
+      },
+      {
+        "address": "0x3afd66260",
+        "name": "_Z5panicPKcz",
+        "ordinal": 167
+      },
+      {
+        "address": "0x3afa44710",
+        "name": "_Z6verrorPKcPc",
+        "ordinal": 168
+      },
+      {
+        "address": "0x3afa44350",
+        "name": "_Z6verrorRN6octave19execution_exceptionEPKcPc",
+        "ordinal": 169
+      },
+      {
+        "address": "0x3afd66240",
+        "name": "_Z6vpanicPKcPc",
+        "ordinal": 170
+      },
+      {
+        "address": "0x3afa43040",
+        "name": "_Z7messagePKcS0_z",
+        "ordinal": 171
+      },
+      {
+        "address": "0x3afa46260",
+        "name": "_Z7warningPKcz",
+        "ordinal": 172
+      },
+      {
+        "address": "0x3afa42d10",
+        "name": "_Z8vmessagePKcS0_Pc",
+        "ordinal": 173
+      },
+      {
+        "address": "0x3afa461e0",
+        "name": "_Z8vwarningPKcPc",
+        "ordinal": 174
+      },
+      {
+        "address": "0x3afcfe8f0",
+        "name": "_ZN10octave_map15delete_elementsERK17octave_value_list",
+        "ordinal": 175
+      },
+      {
+        "address": "0x3afcfda40",
+        "name": "_ZN10octave_map15delete_elementsERK5ArrayIN6octave10idx_vectorENSt3pmr21polymorphic_allocatorIS2_EEE",
+        "ordinal": 176
+      },
+      {
+        "address": "0x3afcfd8c0",
+        "name": "_ZN10octave_map15delete_elementsERKN6octave10idx_vectorE",
+        "ordinal": 177
+      },
+      {
+        "address": "0x3afcfd980",
+        "name": "_ZN10octave_map15delete_elementsEiRKN6octave10idx_vectorE",
+        "ordinal": 178
+      },
+      {
+        "address": "0x3afcfcea0",
+        "name": "_ZN10octave_map16fast_elem_insertExRK17octave_scalar_map",
+        "ordinal": 179
+      },
+      {
+        "address": "0x3afcfd530",
+        "name": "_ZN10octave_map19optimize_dimensionsEv",
+        "ordinal": 180
+      },
+      {
+        "address": "0x3afd06be0",
+        "name": "_ZN10octave_map3catEixPK17octave_scalar_map",
+        "ordinal": 181
+      },
+      {
+        "address": "0x3afd07b00",
+        "name": "_ZN10octave_map3catEixPKS_",
+        "ordinal": 182
+      },
+      {
+        "address": "0x3afd081a0",
+        "name": "_ZN10octave_map6assignERK17octave_value_listRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK4Cell",
+        "ordinal": 183
+      },
+      {
+        "address": "0x3afd049b0",
+        "name": "_ZN10octave_map6assignERK17octave_value_listRKS_",
+        "ordinal": 184
+      },
+      {
+        "address": "0x3afd03b10",
+        "name": "_ZN10octave_map6assignERK5ArrayIN6octave10idx_vectorENSt3pmr21polymorphic_allocatorIS2_EEERKS_",
+        "ordinal": 185
+      },
+      {
+        "address": "0x3afd03fc0",
+        "name": "_ZN10octave_map6assignERKN6octave10idx_vectorERKS_",
+        "ordinal": 186
+      },
+      {
+        "address": "0x3afd04480",
+        "name": "_ZN10octave_map6assignERKN6octave10idx_vectorES3_RKS_",
+        "ordinal": 187
+      },
+      {
+        "address": "0x3afd03730",
+        "name": "_ZN10octave_map6concatERKS_RK5ArrayIxNSt3pmr21polymorphic_allocatorIxEEE",
+        "ordinal": 188
+      },
+      {
+        "address": "0x3afd05990",
+        "name": "_ZN10octave_map6do_catEixPK17octave_scalar_mapRS_",
+        "ordinal": 189
+      },
+      {
+        "address": "0x3afd07320",
+        "name": "_ZN10octave_map6do_catEixPKS_RS_",
+        "ordinal": 190
+      },
+      {
+        "address": "0x3afcfdb00",
+        "name": "_ZN10octave_map6resizeERK10dim_vectorb",
+        "ordinal": 191
+      },
+      {
+        "address": "0x3afcff7d0",
+        "name": "_ZN10octave_map7rmfieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 192
+      },
+      {
+        "address": "0x3afd05760",
+        "name": "_ZN10octave_map8contentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "ordinal": 193
+      },
+      {
+        "address": "0x3afd08020",
+        "name": "_ZN10octave_map8setfieldERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK4Cell",
+        "ordinal": 194
+      },
+      {
+        "address": "0x3afd063c0",
+        "name": "_ZN10octave_mapC1ERK17octave_scalar_map",
+        "ordinal": 195
+      },
+      {
+        "address": "0x3afd063c0",
+        "name": "_ZN10octave_mapC2ERK17octave_scalar_map",
+        "ordinal": 196
+      },
+      {
+        "address": "0x3af75a050",
+        "name": "_ZN11octave_bool10load_asciiERSi",
+        "ordinal": 197
+      },
+      {
+        "address": "0x3af75a570",
+        "name": "_ZN11octave_bool10save_asciiERSo",
+        "ordinal": 198
+      },
+      {
+        "address": "0x3af75ac40",
+        "name": "_ZN11octave_bool11do_index_opERK17octave_value_listb",
+        "ordinal": 199
+      },
+      {
+        "address": "0x3af75a0e0",
+        "name": "_ZN11octave_bool11load_binaryERSibN6octave9mach_info12float_formatE",
+        "ordinal": 200
+      }
+    ],
+    "format": "pe",
+    "forwarded": 0,
+    "matching": 9425,
+    "ordinal_only": 0,
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\GNU Octave\\Octave-11.3.0\\mingw64\\bin\\liboctinterp-15.dll",
+    "total": 9425
+  },
+  "summary": "9425 export(s).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "partial",
+    "examined": 200,
+    "total": 9425,
+    "next_offset": 200
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\GNU Octave\\Octave-11.3.0\\mingw64\\bin\\liboctinterp-15.dll"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

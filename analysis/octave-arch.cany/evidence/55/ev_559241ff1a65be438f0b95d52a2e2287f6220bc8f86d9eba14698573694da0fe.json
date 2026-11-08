@@ -1,0 +1,252 @@
+{
+  "id": "ev_559241ff1a65be438f0b95d52a2e2287f6220bc8f86d9eba14698573694da0fe",
+  "subject": {
+    "kind": "pe",
+    "sha256": "d48ead95797e7ed1ff536f7c9e578b9f901e9d061e2a63a4a9a33673ab002701",
+    "name": "liboctinterp-15.dll"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "matlab"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x3b0148c98",
+        "references": [
+          {
+            "from": "0x3af3a403e",
+            "function": "_ZN6octave15cmdline_optionsC1EiPPc"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\n\nUsage: octave [options] [FILE]\n\nOptions:\n\n  --echo-commands, -x     Echo commands as they are executed.\n  --eval, -e CODE         Evaluate CODE.  Exit when done unless --persist.\n  --experimental-terminal-widget\n                          Use new experimental terminal widget in the GUI.\n  --gui, -g               Start the graphical user interface.\n  --help, -h,             Print short help message and exit.\n  --interactive, -i       Force interactive behavior.\n  --line-editing          Force readline use for command-line editing.\n  --no-gui, -G            Disable the graphical user interface.\n  --no-history, -H        Don't save commands to the history list\n  --no-init-all, --norc, -f\n                          Don't read any initialization files.\n  --no-init-path          Don't initialize function search path.\n  --no-init-site          Don't read the site-wide octaverc files.\n  --no-init-user          Don't read the ~/.octaverc or .octaverc files.\n  --no-line-editing       Don't use readline for command-line editing.\n  --no-startup-tests      Don't run compatibility tests on startup.\n  --no-window-system, -W  Disable window system, including graphics.\n  --path PATH, -p PATH    Add PATH to head of function search path.\n  --persist               Go interactive after --eval or reading from FILE.\n  --server                Enter server mode at startup.\n  --quiet, --silent, -q   Don't print message at startup.\n  --traditional           Set variables for closer MATLAB compatibility.\n  --version, -v           Print version information and exit.\n\n  FILE                    Execute commands from FILE.  Exit when done\n                          unless --persist is also specified.\n\n"
+      },
+      {
+        "address": "0x3b01612d6",
+        "references": [
+          {
+            "from": "0x3af6c9228",
+            "function": "_ZN6octave9build_env8featuresEv"
+          }
+        ],
+        "section": ".rdata",
+        "text": "QSCI_QSCILEXERMATLAB_H"
+      },
+      {
+        "address": "0x3b019a208",
+        "references": [
+          {
+            "from": "0x3af88a565",
+            "function": "_ZN6octave45tree_braindead_shortcircuit_binary_expression8evaluateERNS_14tree_evaluatorEi"
+          },
+          {
+            "from": "0x3af88a5a2",
+            "function": "_ZN6octave45tree_braindead_shortcircuit_binary_expression8evaluateERNS_14tree_evaluatorEi"
+          },
+          {
+            "from": "0x3af88a5fa",
+            "function": "_ZN6octave22tree_binary_expression34matlab_style_short_circuit_warningEPKc"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Matlab-style short-circuit operation performed for operator %s"
+      },
+      {
+        "address": "0x3b019a248",
+        "references": [
+          {
+            "from": "0x3af88a56c",
+            "function": "_ZN6octave45tree_braindead_shortcircuit_binary_expression8evaluateERNS_14tree_evaluatorEi"
+          },
+          {
+            "from": "0x3af88a5a9",
+            "function": "_ZN6octave45tree_braindead_shortcircuit_binary_expression8evaluateERNS_14tree_evaluatorEi"
+          },
+          {
+            "from": "0x3af88a5f0",
+            "function": "_ZN6octave22tree_binary_expression34matlab_style_short_circuit_warningEPKc"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:possible-matlab-short-circuit-operator"
+      },
+      {
+        "address": "0x3b01c4f80",
+        "references": [
+          {
+            "from": "0x3afa4df50",
+            "function": "_Z16warn_complex_cmpv"
+          }
+        ],
+        "section": ".rdata",
+        "text": "comparing the complex part of complex numbers is not supported in Matlab"
+      },
+      {
+        "address": "0x3b01d88a0",
+        "references": [
+          {
+            "from": "0x3afc20d00",
+            "function": "_ZN6octave11interpreter19maximum_braindamageEv"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Octave:possible-matlab-short-circuit-operator"
+      },
+      {
+        "address": "0x3b01dcc08",
+        "references": [
+          {
+            "from": "0x3afc594d1",
+            "function": "_ZN6octave16load_save_system12write_headerERSoRKNS_16load_save_formatE"
+          }
+        ],
+        "section": ".rdata",
+        "text": "MATLAB 5.0 MAT-file, written by Octave 11.3.0, %Y-%m-%d %T UTC"
+      },
+      {
+        "address": "0x3b01dd1b0",
+        "references": [
+          {
+            "from": "0x3afc5cad7",
+            "function": "_ZN6octave16load_save_system18parse_save_optionsERK13string_vectorRNS_16load_save_formatERbS6_S6_"
+          }
+        ],
+        "section": ".rdata",
+        "text": "save: Matlab file format -v7.3 is not yet implemented"
+      },
+      {
+        "address": "0x3b01dd568",
+        "references": [
+          {
+            "from": "0x3afc5f87d",
+            "function": "_ZN6octave16load_save_system4saveERK17octave_value_listi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "save: MATLAB compatible formats '-v4' and '-v6' are uncompressed"
+      },
+      {
+        "address": "0x3b01dd650",
+        "references": [
+          {
+            "from": "0x3afc60f79",
+            "function": "_ZN6octave16load_save_system4loadERK17octave_value_listi"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: Matlab file format -v7.3 is not yet implemented"
+      },
+      {
+        "address": "0x3b01df870",
+        "references": [
+          {
+            "from": "0x3afc7e5c8",
+            "function": "_ZN6octave16load_mcos_objectERK12octave_valueb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: object of class '%s' was deleted in MATLAB and cannot be loaded. Returning metadata"
+      },
+      {
+        "address": "0x3b01df958",
+        "references": [
+          {
+            "from": "0x3afc80582",
+            "function": "sub_3afc7fad0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: MATLAB enumeration class object cannot be loaded. Returning as %s"
+      },
+      {
+        "address": "0x3b01e0ddc",
+        "references": [
+          {
+            "from": "0x3afc921cc",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          }
+        ],
+        "section": ".rdata",
+        "text": "matlabroot"
+      },
+      {
+        "address": "0x3b01e0f70",
+        "references": [
+          {
+            "from": "0x3afc8fb15",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: MATLAB class object with type system '%s' not supported. Loading as %s"
+      },
+      {
+        "address": "0x3b01e0fe8",
+        "references": [
+          {
+            "from": "0x3afc920b8",
+            "function": "_Z24read_mat5_binary_elementRSiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbRbR12octave_value"
+          }
+        ],
+        "section": ".rdata",
+        "text": "load: MATLAB enumeration classes are not supported. Loading as %s"
+      },
+      {
+        "address": "0x3b01e155d",
+        "references": [
+          {
+            "from": "0x3afc9722c",
+            "function": "_Z24save_mat5_binary_elementRSoRK12octave_valueRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbbbb"
+          }
+        ],
+        "section": ".rdata",
+        "text": "MATLAB:save:"
+      },
+      {
+        "address": "0x3b02130f0",
+        "references": [
+          {
+            "from": "0x3b020dd88",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "14mxArray_matlab"
+      },
+      {
+        "address": "0x3b046eac4",
+        "references": [],
+        "section": ".edata",
+        "text": "_ZN6octave22tree_binary_expression34matlab_style_short_circuit_warningEPKc"
+      }
+    ],
+    "total": 18
+  },
+  "summary": "18 strings match \"matlab\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 18,
+    "total": 18
+  },
+  "locations": [],
+  "links": []
+}

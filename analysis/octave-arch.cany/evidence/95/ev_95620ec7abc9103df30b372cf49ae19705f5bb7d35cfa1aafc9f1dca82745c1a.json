@@ -1,0 +1,237 @@
+{
+  "id": "ev_95620ec7abc9103df30b372cf49ae19705f5bb7d35cfa1aafc9f1dca82745c1a",
+  "subject": {
+    "kind": "pe",
+    "sha256": "e2c43b0c802683d1bb834a3e60e88e5475d0cd2ed01cfee2000d86757dc428fc",
+    "name": "liboctave-13.dll"
+  },
+  "operation": "core_overview_show",
+  "params": {},
+  "result": {
+    "architecture": "x86_64",
+    "bits": 64,
+    "counts": {
+      "basic_blocks": 609232,
+      "cross_references": 789353,
+      "exports": 14972,
+      "functions": 27548,
+      "functions_with_generated_names": 12399,
+      "imports": 899,
+      "instructions": 3541250,
+      "jump_tables": 215,
+      "strings": 31567,
+      "symbols": 0
+    },
+    "discovered_by": {
+      "call": 617,
+      "code_pointer": 4,
+      "entry_point": 1,
+      "export": 14527,
+      "function_starts": 12399
+    },
+    "endianness": "little",
+    "entry_point": "0x3993f11f0",
+    "file": "liboctave-13.dll",
+    "format": "pe",
+    "image_base": "0x3993f0000",
+    "info": {
+      "linker_version": "2.45",
+      "subsystem": "windows-console",
+      "timestamp": "1780425585",
+      "tls_callbacks": "0x399cc9ff0, 0x399cc9fd0"
+    },
+    "kind": "shared-library",
+    "libraries": [
+      "ADVAPI32.dll",
+      "KERNEL32.dll",
+      "SHELL32.dll",
+      "SHLWAPI.dll",
+      "USER32.dll",
+      "WS2_32.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-process-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "bcrypt.dll",
+      "libarpack-2.dll",
+      "libblas.dll",
+      "libcholmod.dll",
+      "libcurl-4.dll",
+      "libcxsparse.dll",
+      "libfftw3-3.dll",
+      "libfftw3f-3.dll",
+      "libgcc_s_seh-1.dll",
+      "libgfortran-5.dll",
+      "libiconv-2.dll",
+      "liblapack.dll",
+      "libpcre2-8-0.dll",
+      "libqrupdate-1.dll",
+      "libreadline8.dll",
+      "libspqr.dll",
+      "libstdc++-6.dll",
+      "libsuitesparseconfig.dll",
+      "libumfpack.dll"
+    ],
+    "mitigations": {
+      "canary": false,
+      "code_signature": null,
+      "control_flow_guard": false,
+      "encrypted": null,
+      "fortify": null,
+      "high_entropy_va": true,
+      "no_seh": false,
+      "nx": true,
+      "pie": true,
+      "relro": null,
+      "stripped": true
+    },
+    "section_count": 10,
+    "segments": [
+      {
+        "end": "0x39a31d9a0",
+        "entropy": 6.2546467781066895,
+        "kind": "code",
+        "name": ".text",
+        "perms": "r-x",
+        "size": 15911328,
+        "start": "0x3993f1000"
+      },
+      {
+        "end": "0x39a31fa30",
+        "entropy": 2.295586585998535,
+        "kind": "data",
+        "name": ".data",
+        "perms": "rw-",
+        "size": 6704,
+        "start": "0x39a31e000"
+      },
+      {
+        "end": "0x39a385000",
+        "entropy": 4.960312843322754,
+        "kind": "rodata",
+        "name": ".rdata",
+        "perms": "r--",
+        "size": 413696,
+        "start": "0x39a320000"
+      },
+      {
+        "end": "0x39a3d3e34",
+        "entropy": 6.701138973236084,
+        "kind": "rodata",
+        "name": ".pdata",
+        "perms": "r--",
+        "size": 323124,
+        "start": "0x39a385000"
+      },
+      {
+        "end": "0x39a4d85c4",
+        "entropy": 5.722902774810791,
+        "kind": "rodata",
+        "name": ".xdata",
+        "perms": "r--",
+        "size": 1066436,
+        "start": "0x39a3d4000"
+      },
+      {
+        "end": "0x39a4e365c",
+        "entropy": null,
+        "kind": "bss",
+        "name": ".bss",
+        "perms": "rw-",
+        "size": 42588,
+        "start": "0x39a4d9000"
+      },
+      {
+        "end": "0x39a5d19d3",
+        "entropy": 5.848992824554443,
+        "kind": "rodata",
+        "name": ".edata",
+        "perms": "r--",
+        "size": 973267,
+        "start": "0x39a4e4000"
+      },
+      {
+        "end": "0x39a5dbb3c",
+        "entropy": 5.1706013679504395,
+        "kind": "rodata",
+        "name": ".idata",
+        "perms": "r--",
+        "size": 39740,
+        "start": "0x39a5d2000"
+      },
+      {
+        "end": "0x39a5dc010",
+        "entropy": -0.0,
+        "kind": "data",
+        "name": ".tls",
+        "perms": "rw-",
+        "size": 16,
+        "start": "0x39a5dc000"
+      },
+      {
+        "end": "0x39a5de78c",
+        "entropy": 5.433843612670898,
+        "kind": "other",
+        "name": ".reloc",
+        "perms": "r--",
+        "size": 6028,
+        "start": "0x39a5dd000"
+      }
+    ],
+    "toolchain_hints": [
+      {
+        "category": "compiler",
+        "evidence": "MinGW runtime markers",
+        "id": "mingw",
+        "label": "MinGW (GCC for Windows)",
+        "strength": "weak"
+      }
+    ],
+    "warnings": []
+  },
+  "summary": "PE (Windows) shared-library for x86_64 with 27548 functions, 31567 strings, 899 imports from 38 libraries.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "indirect_jumps_unresolved",
+      "message": "157 indirect jumps could not be resolved; code they reach may be missing"
+    },
+    {
+      "code": "stripped_binary",
+      "message": "no local symbols: most function names are generated (sub_…)"
+    },
+    {
+      "code": "static_analysis_only",
+      "message": "functions reached only through computed pointers or at run time may be missing; absence is not proof"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x3993f11f0",
+      "label": "entry point"
+    }
+  ],
+  "links": []
+}

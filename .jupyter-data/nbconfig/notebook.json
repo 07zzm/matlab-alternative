@@ -1,0 +1,10 @@
+{
+  "load_extensions": {
+    "equation-numbering/main": true
+  },
+  "CodeCell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  }
+}

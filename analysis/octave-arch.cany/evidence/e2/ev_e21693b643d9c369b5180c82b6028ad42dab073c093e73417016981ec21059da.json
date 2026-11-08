@@ -1,0 +1,172 @@
+{
+  "id": "ev_e21693b643d9c369b5180c82b6028ad42dab073c093e73417016981ec21059da",
+  "subject": {
+    "kind": "pe",
+    "sha256": "d48ead95797e7ed1ff536f7c9e578b9f901e9d061e2a63a4a9a33673ab002701",
+    "name": "liboctinterp-15.dll"
+  },
+  "operation": "native_sections_list",
+  "params": {},
+  "result": {
+    "sections": [
+      {
+        "end": "0x3b013fca0",
+        "entropy": 6.16045618057251,
+        "exec": true,
+        "file_offset": 1024,
+        "file_size": 14281888,
+        "kind": "code",
+        "name": ".text",
+        "read": true,
+        "segment": null,
+        "size": 14281888,
+        "start": "0x3af3a1000",
+        "write": false
+      },
+      {
+        "end": "0x3b0147500",
+        "entropy": 3.5044727325439453,
+        "exec": false,
+        "file_offset": 14283264,
+        "file_size": 29952,
+        "kind": "data",
+        "name": ".data",
+        "read": true,
+        "segment": null,
+        "size": 29952,
+        "start": "0x3b0140000",
+        "write": true
+      },
+      {
+        "end": "0x3b026dc88",
+        "entropy": 5.169015884399414,
+        "exec": false,
+        "file_offset": 14313472,
+        "file_size": 1203336,
+        "kind": "rodata",
+        "name": ".rdata",
+        "read": true,
+        "segment": null,
+        "size": 1203336,
+        "start": "0x3b0148000",
+        "write": false
+      },
+      {
+        "end": "0x3b02bedb4",
+        "entropy": 6.639025688171387,
+        "exec": false,
+        "file_offset": 15517184,
+        "file_size": 331188,
+        "kind": "rodata",
+        "name": ".pdata",
+        "read": true,
+        "segment": null,
+        "size": 331188,
+        "start": "0x3b026e000",
+        "write": false
+      },
+      {
+        "end": "0x3b0405d48",
+        "entropy": 5.799386501312256,
+        "exec": false,
+        "file_offset": 15848448,
+        "file_size": 1338696,
+        "kind": "rodata",
+        "name": ".xdata",
+        "read": true,
+        "segment": null,
+        "size": 1338696,
+        "start": "0x3b02bf000",
+        "write": false
+      },
+      {
+        "end": "0x3b040d440",
+        "entropy": null,
+        "exec": false,
+        "file_offset": null,
+        "file_size": 0,
+        "kind": "bss",
+        "name": ".bss",
+        "read": true,
+        "segment": null,
+        "size": 29760,
+        "start": "0x3b0406000",
+        "write": true
+      },
+      {
+        "end": "0x3b04b4aed",
+        "entropy": 5.713980674743652,
+        "exec": false,
+        "file_offset": 17187328,
+        "file_size": 682733,
+        "kind": "rodata",
+        "name": ".edata",
+        "read": true,
+        "segment": null,
+        "size": 682733,
+        "start": "0x3b040e000",
+        "write": false
+      },
+      {
+        "end": "0x3b053b51c",
+        "entropy": 5.599072456359863,
+        "exec": false,
+        "file_offset": 17870336,
+        "file_size": 550172,
+        "kind": "rodata",
+        "name": ".idata",
+        "read": true,
+        "segment": null,
+        "size": 550172,
+        "start": "0x3b04b5000",
+        "write": false
+      },
+      {
+        "end": "0x3b053c010",
+        "entropy": -0.0,
+        "exec": false,
+        "file_offset": 18420736,
+        "file_size": 16,
+        "kind": "data",
+        "name": ".tls",
+        "read": true,
+        "segment": null,
+        "size": 16,
+        "start": "0x3b053c000",
+        "write": true
+      },
+      {
+        "end": "0x3b0551804",
+        "entropy": 5.444255352020264,
+        "exec": false,
+        "file_offset": 18421248,
+        "file_size": 83972,
+        "kind": "other",
+        "name": ".reloc",
+        "read": true,
+        "segment": null,
+        "size": 83972,
+        "start": "0x3b053d000",
+        "write": false
+      }
+    ],
+    "segments": []
+  },
+  "summary": "0 segments and 10 sections.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 10,
+    "total": 10
+  },
+  "locations": [],
+  "links": []
+}

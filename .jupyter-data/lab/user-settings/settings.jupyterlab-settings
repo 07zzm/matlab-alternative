@@ -1,0 +1,29 @@
+{
+  "@jupyterlab/apputils-extension:themes": {
+    "theme": "JupyterLab Dark"
+  },
+  "@jupyterlab/notebook-extension:tracker": {
+    "codeCellConfig": {
+      "lineNumbers": true,
+      "defaultLineHeight": 1.4,
+      "fontFamily": "Menlo, Consolas, monospace"
+    },
+    "markdownCellConfig": {},
+    "rawCellConfig": {}
+  },
+  "@jupyterlab/console-extension:tracker": {
+    "lineNumbers": true
+  },
+  "@jupyterlab/fileeditor-extension": {
+    "editorConfig": {
+      "lineNumbers": true
+    }
+  },
+  "@jupyterlab/shortcuts-extension": {
+    "shortcuts": []
+  },
+  "jupyterlab-shell": {},
+  "@jupyterlab/statusbar": {
+    "showStatusBar": true
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "ev_1da00e3331ba18141da21be8ffa96881b9a7c6e8cde8f7a371d673e498366aac",
+  "subject": {
+    "kind": "pe",
+    "sha256": "3b04a62418341b21b6d853aea2c56da790a570012b7f3a8c8fcc54047db6a4bf",
+    "name": "liboctgui-14.dll"
+  },
+  "operation": "core_overview_show",
+  "params": {},
+  "result": {
+    "architecture": "x86_64",
+    "bits": 64,
+    "counts": {
+      "basic_blocks": 84381,
+      "cross_references": 142006,
+      "exports": 14,
+      "functions": 6602,
+      "functions_with_generated_names": 6282,
+      "imports": 2847,
+      "instructions": 486708,
+      "jump_tables": 64,
+      "strings": 16827,
+      "symbols": 0
+    },
+    "discovered_by": {
+      "call": 296,
+      "code_pointer": 4,
+      "entry_point": 1,
+      "export": 10,
+      "function_starts": 6291
+    },
+    "endianness": "little",
+    "entry_point": "0x2131511f0",
+    "file": "liboctgui-14.dll",
+    "format": "pe",
+    "image_base": "0x213150000",
+    "info": {
+      "linker_version": "2.45",
+      "subsystem": "windows-console",
+      "timestamp": "1780425587",
+      "tls_callbacks": "0x2132ea290, 0x2132ea270"
+    },
+    "kind": "shared-library",
+    "libraries": [
+      "KERNEL32.dll",
+      "OPENGL32.dll",
+      "Qt6Core.dll",
+      "Qt6Gui.dll",
+      "Qt6Help.dll",
+      "Qt6Network.dll",
+      "Qt6OpenGL.dll",
+      "Qt6OpenGLWidgets.dll",
+      "Qt6PrintSupport.dll",
+      "Qt6Widgets.dll",
+      "USER32.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "libgcc_s_seh-1.dll",
+      "liboctave-13.dll",
+      "liboctinterp-15.dll",
+      "libstdc++-6.dll",
+      "qscintilla2_qt6.dll"
+    ],
+    "mitigations": {
+      "canary": false,
+      "code_signature": null,
+      "control_flow_guard": false,
+      "encrypted": null,
+      "fortify": null,
+      "high_entropy_va": true,
+      "no_seh": false,
+      "nx": true,
+      "pie": true,
+      "relro": null,
+      "stripped": true
+    },
+    "section_count": 11,
+    "segments": [
+      {
+        "end": "0x21338ebe0",
+        "entropy": 6.167911052703857,
+        "kind": "code",
+        "name": ".text",
+        "perms": "r-x",
+        "size": 2350048,
+        "start": "0x213151000"
+      },
+      {
+        "end": "0x213393860",
+        "entropy": 1.523856282234192,
+        "kind": "data",
+        "name": ".data",
+        "perms": "rw-",
+        "size": 18528,
+        "start": "0x21338f000"
+      },
+      {
+        "end": "0x21345b3b8",
+        "entropy": 6.627726078033447,
+        "kind": "rodata",
+        "name": ".rdata",
+        "perms": "r--",
+        "size": 816056,
+        "start": "0x213394000"
+      },
+      {
+        "end": "0x21345c010",
+        "entropy": 2.5,
+        "kind": "rodata",
+        "name": ".qtversion",
+        "perms": "r--",
+        "size": 16,
+        "start": "0x21345c000"
+      },
+      {
+        "end": "0x21346f768",
+        "entropy": 6.2080583572387695,
+        "kind": "rodata",
+        "name": ".pdata",
+        "perms": "r--",
+        "size": 75624,
+        "start": "0x21345d000"
+      },
+      {
+        "end": "0x213498b74",
+        "entropy": 5.663009166717529,
+        "kind": "rodata",
+        "name": ".xdata",
+        "perms": "r--",
+        "size": 166772,
+        "start": "0x213470000"
+      },
+      {
+        "end": "0x2134a6780",
+        "entropy": null,
+        "kind": "bss",
+        "name": ".bss",
+        "perms": "rw-",
+        "size": 55168,
+        "start": "0x213499000"
+      },
+      {
+        "end": "0x2134a7352",
+        "entropy": 5.3746657371521,
+        "kind": "rodata",
+        "name": ".edata",
+        "perms": "r--",
+        "size": 850,
+        "start": "0x2134a7000"
+      },
+      {
+        "end": "0x2134d3dc8",
+        "entropy": 5.474735260009766,
+        "kind": "rodata",
+        "name": ".idata",
+        "perms": "r--",
+        "size": 179656,
+        "start": "0x2134a8000"
+      },
+      {
+        "end": "0x2134d4010",
+        "entropy": -0.0,
+        "kind": "data",
+        "name": ".tls",
+        "perms": "rw-",
+        "size": 16,
+        "start": "0x2134d4000"
+      },
+      {
+        "end": "0x2134db2b0",
+        "entropy": 5.454906940460205,
+        "kind": "other",
+        "name": ".reloc",
+        "perms": "r--",
+        "size": 25264,
+        "start": "0x2134d5000"
+      }
+    ],
+    "toolchain_hints": [
+      {
+        "category": "framework",
+        "evidence": "links Qt",
+        "id": "qt",
+        "label": "Qt",
+        "strength": "strong"
+      },
+      {
+        "category": "compiler",
+        "evidence": "MinGW runtime markers",
+        "id": "mingw",
+        "label": "MinGW (GCC for Windows)",
+        "strength": "weak"
+      }
+    ],
+    "warnings": []
+  },
+  "summary": "PE (Windows) shared-library for x86_64 with 6602 functions, 16827 strings, 2847 imports from 27 libraries.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "indirect_jumps_unresolved",
+      "message": "471 indirect jumps could not be resolved; code they reach may be missing"
+    },
+    {
+      "code": "stripped_binary",
+      "message": "no local symbols: most function names are generated (sub_…)"
+    },
+    {
+      "code": "static_analysis_only",
+      "message": "functions reached only through computed pointers or at run time may be missing; absence is not proof"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x2131511f0",
+      "label": "entry point"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,245 @@
+{
+  "id": "ev_9f2335044c047a1a9d4fdb69b9532fa2a054b3fbe36bdc1946ba6e755833bf7b",
+  "subject": {
+    "kind": "pe",
+    "sha256": "d48ead95797e7ed1ff536f7c9e578b9f901e9d061e2a63a4a9a33673ab002701",
+    "name": "liboctinterp-15.dll"
+  },
+  "operation": "core_overview_show",
+  "params": {},
+  "result": {
+    "architecture": "x86_64",
+    "bits": 64,
+    "counts": {
+      "basic_blocks": 408143,
+      "cross_references": 732929,
+      "exports": 9425,
+      "functions": 29005,
+      "functions_with_generated_names": 19387,
+      "imports": 7573,
+      "instructions": 2829651,
+      "jump_tables": 177,
+      "strings": 39947,
+      "symbols": 0
+    },
+    "discovered_by": {
+      "call": 1382,
+      "code_pointer": 22,
+      "entry_point": 1,
+      "export": 8209,
+      "function_starts": 19391
+    },
+    "endianness": "little",
+    "entry_point": "0x3af3a11f0",
+    "file": "liboctinterp-15.dll",
+    "format": "pe",
+    "image_base": "0x3af3a0000",
+    "info": {
+      "linker_version": "2.45",
+      "subsystem": "windows-console",
+      "timestamp": "1780425586",
+      "tls_callbacks": "0x3afeb7900, 0x3afeb78e0"
+    },
+    "kind": "shared-library",
+    "libraries": [
+      "ADVAPI32.dll",
+      "GDI32.dll",
+      "GLU32.dll",
+      "KERNEL32.dll",
+      "OPENGL32.dll",
+      "SHELL32.dll",
+      "USER32.dll",
+      "api-ms-win-crt-conio-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "libGraphicsMagick++-12.dll",
+      "libGraphicsMagick-3.dll",
+      "libamd.dll",
+      "libccolamd.dll",
+      "libcholmod.dll",
+      "libcolamd.dll",
+      "libcxsparse.dll",
+      "libfontconfig-1.dll",
+      "libfreetype-6.dll",
+      "libgcc_s_seh-1.dll",
+      "libgl2ps.dll",
+      "libgomp-1.dll",
+      "libhdf5.dll",
+      "liblapack.dll",
+      "liboctave-13.dll",
+      "libstdc++-6.dll",
+      "libsuitesparseconfig.dll",
+      "libwinpthread-1.dll",
+      "libxerbla.dll",
+      "libz.dll"
+    ],
+    "mitigations": {
+      "canary": false,
+      "code_signature": null,
+      "control_flow_guard": false,
+      "encrypted": null,
+      "fortify": null,
+      "high_entropy_va": true,
+      "no_seh": false,
+      "nx": true,
+      "pie": true,
+      "relro": null,
+      "stripped": true
+    },
+    "section_count": 10,
+    "segments": [
+      {
+        "end": "0x3b013fca0",
+        "entropy": 6.16045618057251,
+        "kind": "code",
+        "name": ".text",
+        "perms": "r-x",
+        "size": 14281888,
+        "start": "0x3af3a1000"
+      },
+      {
+        "end": "0x3b0147500",
+        "entropy": 3.5044727325439453,
+        "kind": "data",
+        "name": ".data",
+        "perms": "rw-",
+        "size": 29952,
+        "start": "0x3b0140000"
+      },
+      {
+        "end": "0x3b026dc88",
+        "entropy": 5.169015884399414,
+        "kind": "rodata",
+        "name": ".rdata",
+        "perms": "r--",
+        "size": 1203336,
+        "start": "0x3b0148000"
+      },
+      {
+        "end": "0x3b02bedb4",
+        "entropy": 6.639025688171387,
+        "kind": "rodata",
+        "name": ".pdata",
+        "perms": "r--",
+        "size": 331188,
+        "start": "0x3b026e000"
+      },
+      {
+        "end": "0x3b0405d48",
+        "entropy": 5.799386501312256,
+        "kind": "rodata",
+        "name": ".xdata",
+        "perms": "r--",
+        "size": 1338696,
+        "start": "0x3b02bf000"
+      },
+      {
+        "end": "0x3b040d440",
+        "entropy": null,
+        "kind": "bss",
+        "name": ".bss",
+        "perms": "rw-",
+        "size": 29760,
+        "start": "0x3b0406000"
+      },
+      {
+        "end": "0x3b04b4aed",
+        "entropy": 5.713980674743652,
+        "kind": "rodata",
+        "name": ".edata",
+        "perms": "r--",
+        "size": 682733,
+        "start": "0x3b040e000"
+      },
+      {
+        "end": "0x3b053b51c",
+        "entropy": 5.599072456359863,
+        "kind": "rodata",
+        "name": ".idata",
+        "perms": "r--",
+        "size": 550172,
+        "start": "0x3b04b5000"
+      },
+      {
+        "end": "0x3b053c010",
+        "entropy": -0.0,
+        "kind": "data",
+        "name": ".tls",
+        "perms": "rw-",
+        "size": 16,
+        "start": "0x3b053c000"
+      },
+      {
+        "end": "0x3b0551804",
+        "entropy": 5.444255352020264,
+        "kind": "other",
+        "name": ".reloc",
+        "perms": "r--",
+        "size": 83972,
+        "start": "0x3b053d000"
+      }
+    ],
+    "toolchain_hints": [
+      {
+        "category": "framework",
+        "evidence": "exports JNI entry points",
+        "id": "jni",
+        "label": "Java native library (JNI)",
+        "strength": "strong"
+      },
+      {
+        "category": "compiler",
+        "evidence": "MinGW runtime markers",
+        "id": "mingw",
+        "label": "MinGW (GCC for Windows)",
+        "strength": "weak"
+      }
+    ],
+    "warnings": []
+  },
+  "summary": "PE (Windows) shared-library for x86_64 with 29005 functions, 39947 strings, 7573 imports from 39 libraries.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.4.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "indirect_jumps_unresolved",
+      "message": "545 indirect jumps could not be resolved; code they reach may be missing"
+    },
+    {
+      "code": "stripped_binary",
+      "message": "no local symbols: most function names are generated (sub_…)"
+    },
+    {
+      "code": "static_analysis_only",
+      "message": "functions reached only through computed pointers or at run time may be missing; absence is not proof"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x3af3a11f0",
+      "label": "entry point"
+    }
+  ],
+  "links": []
+}
