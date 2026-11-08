@@ -15,7 +15,7 @@
 | **MATLAB 语法兼容** | Octave 内核自带 MATLAB 兼容子系统（MAT-file v5、MEX、classdef）；本项目再补 12 个缺失函数 |
 | **`.mat` 真互通** | 默认存盘已对齐 MATLAB 官方 v7 格式，并与 SciPy 交叉验证 9/9（Octave 存→SciPy 读、SciPy 存→Octave 读） |
 | **中文无障碍** | 界面、绘图标题/坐标轴、帮助全部中文；绘图默认 `Microsoft YaHei` |
-| **离线可装** | `wheels/` 内置全部 Python 依赖，无网环境也能 `pip install --no-index` |
+| **离线可装** | 仓库不存放大体积依赖；用 `download_wheels.py` 一次性拉齐 `wheels/`，之后即可 `pip install --no-index` 无网安装 |
 | **双击即用** | 桌面快捷方式 + 图形启动面板 + 批处理启动器 |
 | **可自证** | 一条命令跑完 6 大类测试，含 13 项兼容层断言 |
 | **有取证** | 用 [craft-anything](https://github.com/storytold/craft-anything) 对内核做过二进制取证，见 [架构分析](架构分析-MATLAB替代内核.md) |
@@ -24,20 +24,32 @@
 
 ## 快速开始
 
+> **为什么仓库里没有 `wheels/`**：离线依赖包共 253 MB，放在 Git 仓库里会让克隆变得很慢。
+> 克隆后按下面第 1 步生成一次即可；也可以直接从一台已装好的机器上把 `wheels/`
+> 目录整个拷过来。
+
 ```powershell
-# 1. Python 侧（离线安装，依赖都在 wheels/）
+# 0. 克隆
+git clone https://github.com/07zzm/matlab-alternative.git
+cd matlab-alternative
+
+# 1. 准备离线依赖（二选一）
+.\.venv\Scripts\python.exe download_wheels.py      # 联网拉取到 wheels/
+#   —— 或者：从别的机器直接拷贝整个 wheels/ 目录过来
+
+# 2. Python 侧离线安装
 .\.venv\Scripts\python.exe -m pip install --no-index --find-links wheels -r requirements.txt
 
-# 2. 自检：Python / Jupyter / Octave / 扩展包 / 兼容层
+# 3. 自检：Python / Jupyter / Octave / 扩展包 / 兼容层
 .\检查环境.bat
 
-# 3. 跑综合测试（会在本目录生成 测试结果.png）
+# 4. 跑综合测试（会在本目录生成 测试结果.png）
 .\运行测试.bat
 
-# 4. 跑 .mat 互通测试（Octave <-> Python/SciPy 交叉验证）
+# 5. 跑 .mat 互通测试（Octave <-> Python/SciPy 交叉验证）
 .\测试-MAT互通.bat
 
-# 5. 启动 MATLAB 兼容模式
+# 6. 启动 MATLAB 兼容模式
 .\启动-Octave.bat      →  选 [3] GUI + --traditional
 ```
 
